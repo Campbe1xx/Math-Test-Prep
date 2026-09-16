@@ -183,7 +183,7 @@
 | 10 | A Quadratic Relations | A3.4 | Use completing the square in cases without fractional coefficients. | Completing the square | A3.2 and perfect-square trinomials | Lesson 14 |
 | 10 | A Quadratic Relations | A3.5 | Relate the number of real roots to the x-intercepts of the parabola. | Nature of roots | Discriminant idea and graphing | Lesson 14 |
 | 10 | A Quadratic Relations | A3.6 | Explain how the quadratic formula arises from completing the square. | Quadratic formula structure | Completing the square | Lesson 14 |
-| 10 | A Quadratic Relations | A3.7 | Solve quadratic equations using factoring, the quadratic formula, or graphing. | Solving quadratic equations | A3.1-A3.6 | Lesson 14 |
+| 10 | A Quadratic Relations | A3.7 | Solve quadratic equations using factoring, the quadratic formula, or graphing. | Solving quadratic equations | A3.1, A3.2, A3.3, A3.4, A3.5, and A3.6 | Lesson 14 |
 | 10 | A Quadratic Relations | A3.8 | Sketch or graph a quadratic relation given in standard form. | Graphing from standard form | Substitution and parabola features | Lesson 14 |
 | 10 | A Quadratic Relations | A4.1 | Determine zeros and maximum or minimum values from a graph or equation. | Extracting features from graph or equation | A1-A3 | Lesson 15 |
 | 10 | A Quadratic Relations | A4.2 | Solve contextual problems represented by quadratic graphs or equations. | Quadratic modelling | A1-A4.1 and context interpretation | Lesson 15 |
@@ -238,7 +238,7 @@ Use these rapid questions to identify weak basics before you start the strand le
 24. Interpret the point (3,17) on a cost graph where x is classes attended and y is dollars charged.
 ## PART 3 — PRE-STUDY DIAGNOSTIC
 
-**Purpose:** identify study priorities across both Grade 9 and Grade 10. This is **not** a pass/fail predictor for Trent University.
+**Purpose:** identify study priorities across both Grade 9 and Grade 10. This diagnostic is only a study-planning tool; it does not estimate performance on Trent's actual assessment.
 
 D1. Classify √5 as rational or irrational.
 D2. Write 0.00072 in scientific notation.
@@ -251,7 +251,7 @@ D8. Solve 2x-7=11.
 D9. Trace: y=2; repeat twice: y=y+3. Final output?
 D10. State whether y=4x+1 is linear or non-linear.
 D11. Find the slope through (0,2) and (3,8).
-D12. Find the intersection of y=x+1 and y=5.
+D12. Find the intersection of y=x+1 and the horizontal line y=5.
 D13. Graphically, what kind of line is x=-4?
 D14. Find the equation of the line through (0,-2) and (2,4).
 D15. Find the median of 4, 7, 8, 8, 13.
@@ -260,7 +260,7 @@ D17. Name one limitation of a mathematical model.
 D18. Convert 2.5 L to mL.
 D19. A square side length doubles. How does area change?
 D20. Find the hypotenuse when legs are 8 and 15.
-D21. Find simple interest on $900 at 5% for 2 years.
+D21. If two loans have the same principal and rate, which usually costs more in total: a 3-year loan or a 5-year loan? Briefly explain.
 D22. State one difference between simple and compound interest.
 D23. Do the values y=2,7,14,23 have constant second differences?
 D24. State the vertex of y=(x-1)^2+4.
@@ -277,48 +277,45 @@ D34. Find θ if sin θ = 1/2 and θ is acute.
 D35. Which law is usually used first for SAS information in an acute triangle?
 D36. State one reason to show work even when using a calculator.
 ### Diagnostic Curriculum Mapping
-| Diagnostic Question | Primary Curriculum Expectation |
-| --- | --- |
-| D1 | B1.2 |
-| D2 | B2.1 |
-| D3 | B2.1 |
-| D4 | B3.4 |
-| D5 | B3.5 |
-| D6 | C1.2 |
-| D7 | C1.4 |
-| D8 | C1.5 |
-| D9 | C2.2 |
-| D10 | C3.1 |
-| D11 | C3.2 |
-| D12 | C3.3 |
-| D13 | C4.2 |
-| D14 | C4.4 |
-| D15 | D1.2 |
-| D16 | D1.3 |
-| D17 | D2.5 |
-| D18 | E1.3 |
-| D19 | E1.4 |
-| D20 | E1.5 |
-| D21 | F1.3 |
-| D22 | F1.3 |
-| D23 | A1.2 |
-| D24 | A2.2 |
-| D25 | A3.1 |
-| D26 | A3.7 |
-| D27 | A4.1 |
-| D28 | B1.1 |
-| D29 | B2.2 |
-| D30 | B2.3 |
-| D31 | B3.2 |
-| D32 | C1.1 |
-| D33 | C2.1 |
-| D34 | C2.2 |
-| D35 | C3.2 |
-| D36 | General process |
-
+- D1 → B1.2
+- D2 → B2.1
+- D3 → B2.1
+- D4 → B3.4
+- D5 → B3.5
+- D6 → C1.2
+- D7 → C1.4
+- D8 → C1.5
+- D9 → C2.2
+- D10 → C3.1
+- D11 → C3.2
+- D12 → C3.3
+- D13 → C4.2
+- D14 → C4.4
+- D15 → D1.2
+- D16 → D1.3
+- D17 → D2.5
+- D18 → E1.3
+- D19 → E1.4
+- D20 → E1.5
+- D21 → Grade 9 F1.3
+- D22 → Grade 9 F1.3
+- D23 → A1.2
+- D24 → A2.2
+- D25 → A3.1
+- D26 → A3.7
+- D27 → A4.1
+- D28 → B1.1
+- D29 → B2.2
+- D30 → B2.3
+- D31 → B3.2
+- D32 → Grade 10 C1.1
+- D33 → Grade 10 C2.1
+- D34 → Grade 10 C2.2
+- D35 → Grade 10 C3.2
+- D36 → General process
 
 ### Diagnostic Skill Interpretation
-- **0-12 correct:** begin with the fluency section, Lessons 2-4, 6-7, 10, 12, 14, and 20 before attempting the mock test.
+- **0-12 correct:** begin with the fluency section, Lessons 1-4, 6-7, 10, 12, 14, and 20 before attempting the mock test.
 - **13-24 correct:** you likely remember many ideas but need systematic review and practice under mixed conditions.
 - **25-36 correct:** focus on weak strands, then move quickly to mixed practice and the mock assessment.
 - A clustered weakness matters more than a raw score. For example, three errors in line/graph work can signal broader Grade 9 and Grade 10 risk.
@@ -1148,7 +1145,7 @@ Reversing the sign of h; forgetting that h affects x-values horizontally; ignori
 | 10 | A Quadratic Relations | A3.4 | Use completing the square in cases without fractional coefficients. | Completing the square | A3.2 and perfect-square trinomials | A2.2, A3.7 |
 | 10 | A Quadratic Relations | A3.5 | Relate the number of real roots to the x-intercepts of the parabola. | Nature of roots | Discriminant idea and graphing | A3.7, A4.1 |
 | 10 | A Quadratic Relations | A3.6 | Explain how the quadratic formula arises from completing the square. | Quadratic formula structure | Completing the square | A3.4, A3.7 |
-| 10 | A Quadratic Relations | A3.7 | Solve quadratic equations using factoring, the quadratic formula, or graphing. | Solving quadratic equations | A3.1-A3.6 | A3.3, A4.2 |
+| 10 | A Quadratic Relations | A3.7 | Solve quadratic equations using factoring, the quadratic formula, or graphing. | Solving quadratic equations | A3.1, A3.2, A3.3, A3.4, A3.5, and A3.6 | A3.3, A4.2 |
 | 10 | A Quadratic Relations | A3.8 | Sketch or graph a quadratic relation given in standard form. | Graphing from standard form | Substitution and parabola features | A1.3, A2.4, A4.1 |
 
 #### Why This Matters
@@ -1865,7 +1862,7 @@ Choosing a model and judging its reasonableness is essential when interpreting d
 6. Find the volume of a cone with base area 30 cm^2 and height 9 cm.
 7. A value rises from 80 to 92. Find the percent increase.
 8. Find the axis of symmetry of y=x^2-2x-8.
-9. Use the quadratic formula to solve x^2+x-6=0.
+9. Use the quadratic formula to solve x^2+x-5=0.
 10. Find the distance between (1,1) and (4,5).
 11. Find θ if cos θ=0.8 and θ is acute.
 12. In an acute triangle, which law suits SAS information?
@@ -1942,11 +1939,11 @@ Q54. In △ABC, a=7, b=10, C=60°. Find c to one decimal place.
 9. 10x-15
 10. x=7
 11. x=5
-12. b=2A/a
+12. b = 2A/a; equivalent rearrangements such as b = A/(a/2) are also correct.
 13. 2^7=128
 14. x^3
-15. (x+4)(x+5)
-16. 6x(x-3)
+15. Factor x^2+9x+20: (x+4)(x+5)
+16. Factor 6x^2-18x: 6x(x-3)
 17. 2
 18. y=-2x+5
 19. 8
@@ -1977,7 +1974,7 @@ D17. It may oversimplify reality or fit poorly outside the data range.
 D18. 2500 mL.
 D19. Area becomes 4 times as large.
 D20. 17.
-D21. $90.
+D21. The 5-year loan usually costs more because interest is charged for a longer time.
 D22. Simple interest is calculated only on the original principal; compound interest earns interest on accumulated interest too.
 D23. Yes, second differences are constant at 2.
 D24. (1,4).
@@ -2046,7 +2043,7 @@ D36. It reveals the strategy, supports partial credit, and makes error-checking 
 1. Horizontal line at y=4.
 2. Vertical line at x=-2.
 3. y=-x+5.
-4. New equation y=3(x+2) or y=3x+6, depending on how the shift is expressed from the original graph.
+4. The graph shifts left 2 units; an equivalent equation is y=3(x+2) or y=3x+6.
 5. y=2x+1.
 6. Yes, because 3-2=1.
 
@@ -2067,12 +2064,12 @@ D36. It reveals the strategy, supports partial credit, and makes error-checking 
 6. Collect more data or revise the model.
 
 ### Lesson 10 Practice Answers
-1. 240 cm.
-2. 25π cm^2.
-3. 10.
-4. Area becomes 4 times as large.
-5. 108 cm^3.
-6. Answers vary: tangent-chord, angle sum, symmetry, etc.
+1. Convert 2.4 m to cm: 240 cm.
+2. Area of a radius-5 circle: 25π cm^2.
+3. Hypotenuse of legs 6 and 8: 10.
+4. The area becomes 4 times as large.
+5. Prism volume: 108 cm^3.
+6. Answers vary: angle sum, tangent-chord, symmetry, or another valid property.
 
 ### Lesson 11 Practice Answers
 1. $96.
@@ -2259,7 +2256,7 @@ D36. It reveals the strategy, supports partial credit, and makes error-checking 
 9. x=2 or x=-5.
 10. (x+2)^2-5.
 11. No real roots.
-12. Maximum value 4 at x=3.
+12. Maximum value: 4.
 13. 3.
 14. The context may not allow negative time, length, etc.
 15. Near x=0 both are near 1; for large positive x, 2^x eventually grows faster.
@@ -2301,46 +2298,46 @@ D36. It reveals the strategy, supports partial credit, and makes error-checking 
 ### Cumulative Practice Solutions
 
 #### Cumulative Practice A
-1. 1. 1/x^2.
-2. 2. x=7.
-3. 3. 0.18.
-4. 4. 2.
-5. 5. Quadratic.
-6. 6. 6.
-7. 7. 16π.
-8. 8. $60.
-9. 9. (x-5)(x+2).
-10. 10. x=±5.
-11. 11. (4,3).
-12. 12. 8.
+1. 1/x^2.
+2. x=7.
+3. 0.18.
+4. 2.
+5. Quadratic.
+6. 6.
+7. 16π.
+8. $60.
+9. (x-5)(x+2).
+10. x=±5.
+11. (4,3).
+12. 8.
 
 #### Cumulative Practice B
-1. 1. 9.1 × 10^-4.
-2. 2. -3/2.
-3. 3. 2a-3.
-4. 4. y=3x-2.
-5. 5. Negative correlation.
-6. 6. 2400 g.
-7. 7. $115.
-8. 8. (-2,-5).
-9. 9. x=3 or x=4.
-10. 10. (6,1).
-11. 11. x^2+y^2=9.
-12. 12. Yes.
+1. 9.1 × 10^-4.
+2. -3/2.
+3. 2a-3.
+4. y=3x-2.
+5. Negative correlation.
+6. 2400 g.
+7. $115.
+8. (-2,-5).
+9. x=3 or x=4.
+10. (6,1).
+11. x^2+y^2=9.
+12. Yes.
 
 #### Cumulative Practice C
-1. 1. Example: √17.
-2. 2. x=14.
-3. 3. 42.
-4. 4. A horizontal line through -3.
-5. 5. So users know where the model may fail.
-6. 6. 90 cm^3.
-7. 7. 15%.
-8. 8. x=1.
-9. 9. x=2 or x=-3.
-10. 10. 5.
-11. 11. About 36.9°.
-12. 12. Cosine law.
+1. Example: √17.
+2. x=14.
+3. 42.
+4. A horizontal line through -3.
+5. So users know where the model may fail.
+6. 90 cm^3.
+7. 15%.
+8. x=1.
+9. Using x=[-1±√(1+20)]/2 gives x=(-1±√21)/2.
+10. 5.
+11. About 36.9°.
+12. Cosine law.
 
 ### Full Practice Assessment Solutions
 Q1. 1. Combine integers carefully on a number line. Final answer: 1.
@@ -2526,9 +2523,9 @@ Use this table after every lesson, mixed set, and mock test. The goal is not jus
 
 | Grade | Strand | Curriculum Expectation | Expectation Code | Lesson | Worked Example | Practice Questions | Mixed Practice | Mock Test |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 9 | B Number | Research a number concept in a cultural/community context and explain why it still matters. | B1.1 | Lesson 1 | Yes | Lesson practice | G9 Strand B Mixed Practice | Q2 |
+| 9 | B Number | Research a number concept in a cultural/community context and explain why it still matters. | B1.1 | Lesson 1 | Yes | Lesson practice | G9 Strand B Mixed Practice | Not directly isolated in mock |
 | 9 | B Number | Describe subsets of a number system and compare their similarities and differences. | B1.2 | Lesson 1 | Yes | Lesson practice | G9 Strand B Mixed Practice | Q2 |
-| 9 | B Number | Use patterns and number relationships to explain density, infinity, and limit in number sets. | B1.3 | Lesson 1 | Yes | Lesson practice | G9 Strand B Mixed Practice | Q2 |
+| 9 | B Number | Use patterns and number relationships to explain density, infinity, and limit in number sets. | B1.3 | Lesson 1 | Yes | Lesson practice | G9 Strand B Mixed Practice | Not directly isolated in mock |
 | 9 | B Number | Use exponent patterns to relate the sign and size of an exponent to the value of a power, including scientific notation. | B2.1 | Lesson 2 | Yes | Lesson practice | G9 Strand B Mixed Practice | Q3-Q4 |
 | 9 | B Number | Use exponent-operation relationships to simplify numeric and algebraic expressions. | B2.2 | Lesson 2 | Yes | Lesson practice | G9 Strand B Mixed Practice | Q3-Q4 |
 | 9 | B Number | Apply integers to describe location, direction, amount, and change in context. | B3.1 | Lesson 3 | Yes | Lesson practice | G9 Strand B Mixed Practice | Q5-Q7 |
@@ -2536,14 +2533,14 @@ Use this table after every lesson, mixed set, and mock test. The goal is not jus
 | 9 | B Number | Explain how positive and negative signs affect ratios, rates, fractions, and decimals in context. | B3.3 | Lesson 3 | Yes | Lesson practice | G9 Strand B Mixed Practice | Q5-Q7 |
 | 9 | B Number | Solve problems involving operations with positive and negative fractions and mixed numbers. | B3.4 | Lesson 3 | Yes | Lesson practice | G9 Strand B Mixed Practice | Q5-Q7 |
 | 9 | B Number | Pose and solve problems involving ratios, rates, percent, and proportion in varied contexts. | B3.5 | Lesson 3 | Yes | Lesson practice | G9 Strand B Mixed Practice | Q5-Q7 |
-| 9 | C Algebra | Research an algebraic concept in context and explain why symbolic generalization is useful. | C1.1 | Lesson 4 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q16 partial |
+| 9 | C Algebra | Research an algebraic concept in context and explain why symbolic generalization is useful. | C1.1 | Lesson 4 | Yes | Lesson practice | G9 Strand C Mixed Practice | Not directly isolated in mock |
 | 9 | C Algebra | Create algebraic expressions to generalize relationships and solve problems. | C1.2 | Lesson 4 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q16 partial |
 | 9 | C Algebra | Compare algebraic expressions and determine when they are equivalent. | C1.3 | Lesson 4 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q16 partial |
 | 9 | C Algebra | Simplify algebraic expressions using properties of operations. | C1.4 | Lesson 4 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q16 partial |
 | 9 | C Algebra | Create and solve equations, and verify whether given values are solutions. | C1.5 | Lesson 4 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q16 partial |
-| 9 | C Algebra | Use coding to represent variables, parameters, equations, and inequalities. | C2.1 | Lesson 5 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q11 |
+| 9 | C Algebra | Use coding to represent variables, parameters, equations, and inequalities. | C2.1 | Lesson 5 | Yes | Lesson practice | G9 Strand C Mixed Practice | Not directly isolated in mock |
 | 9 | C Algebra | Create code by decomposing a mathematical situation into ordered steps. | C2.2 | Lesson 5 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q11 |
-| 9 | C Algebra | Read and modify code to change mathematical constraints, parameters, and outcomes. | C2.3 | Lesson 5 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q11 |
+| 9 | C Algebra | Read and modify code to change mathematical constraints, parameters, and outcomes. | C2.3 | Lesson 5 | Yes | Lesson practice | G9 Strand C Mixed Practice | Not directly isolated in mock |
 | 9 | C Algebra | Compare linear and non-linear relations by graph shape and rate of change. | C3.1 | Lesson 6 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q16 partial |
 | 9 | C Algebra | Represent linear relations in words, tables, graphs, and equations, and connect rate and initial value. | C3.2 | Lesson 6 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q16 partial |
 | 9 | C Algebra | Compare two linear relations and interpret their intersection in context. | C3.3 | Lesson 6 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q16 partial |
@@ -2569,22 +2566,22 @@ Use this table after every lesson, mixed set, and mock test. The goal is not jus
 | 9 | F Financial Literacy | Interpret appreciation and depreciation situations and their graphs. | F1.2 | Lesson 11 | Yes | Lesson practice | G9 Strand F Mixed Practice | Q25 |
 | 9 | F Financial Literacy | Compare how interest rate, time, interest method, and down payment affect total cost. | F1.3 | Lesson 11 | Yes | Lesson practice | G9 Strand F Mixed Practice | Q24 |
 | 9 | F Financial Literacy | Modify a budget and justify changes. | F1.4 | Lesson 11 | Yes | Lesson practice | G9 Strand F Mixed Practice | Not directly isolated in mock |
-| 10 | A Quadratic Relations | Collect or analyze data that can be modelled quadratically and graph a suitable curve of best fit. | A1.1 | Lesson 12 | Yes | Lesson practice | G10 Strand A Mixed Practice | Q26-Q28 |
-| 10 | A Quadratic Relations | Determine that y=ax^2+bx+c graphs as a parabola and that its table has constant second differences. | A1.2 | Lesson 12 | Yes | Lesson practice | G10 Strand A Mixed Practice | Q26-Q28 |
-| 10 | A Quadratic Relations | Identify the axis of symmetry, vertex, intercepts, zeros, and maximum or minimum value of a parabola. | A1.3 | Lesson 12 | Yes | Lesson practice | G10 Strand A Mixed Practice | Q26-Q28 |
-| 10 | A Quadratic Relations | Compare y=x^2 with y=2^x and use the comparison to reason about growth and exponent meaning. | A1.4 | Lesson 12 | Yes | Lesson practice | G10 Strand A Mixed Practice | Q26-Q28 |
-| 10 | A Quadratic Relations | Use technology or patterning to identify the effects of transformations on y=x^2. | A2.1 | Lesson 13 | Yes | Lesson practice | G10 Strand A Mixed Practice | Q29-Q31 |
+| 10 | A Quadratic Relations | Collect or analyze data that can be modelled quadratically and graph a suitable curve of best fit. | A1.1 | Lesson 12 | Yes | Lesson practice | G10 Strand A Mixed Practice | Not directly isolated in mock |
+| 10 | A Quadratic Relations | Determine that y=ax^2+bx+c graphs as a parabola and that its table has constant second differences. | A1.2 | Lesson 12 | Yes | Lesson practice | G10 Strand A Mixed Practice | Partial through Q26 |
+| 10 | A Quadratic Relations | Identify the axis of symmetry, vertex, intercepts, zeros, and maximum or minimum value of a parabola. | A1.3 | Lesson 12 | Yes | Lesson practice | G10 Strand A Mixed Practice | Partial through Q27-Q28 and Q37 |
+| 10 | A Quadratic Relations | Compare y=x^2 with y=2^x and use the comparison to reason about growth and exponent meaning. | A1.4 | Lesson 12 | Yes | Lesson practice | G10 Strand A Mixed Practice | Not directly isolated in mock |
+| 10 | A Quadratic Relations | Use technology or patterning to identify the effects of transformations on y=x^2. | A2.1 | Lesson 13 | Yes | Lesson practice | G10 Strand A Mixed Practice | Partial through Q29 |
 | 10 | A Quadratic Relations | Explain the roles of a, h, and k in y=a(x-h)^2+k. | A2.2 | Lesson 13 | Yes | Lesson practice | G10 Strand A Mixed Practice | Q29-Q31 |
 | 10 | A Quadratic Relations | Sketch by hand the graph of y=a(x-h)^2+k using transformations. | A2.3 | Lesson 13 | Yes | Lesson practice | G10 Strand A Mixed Practice | Q29-Q31 |
 | 10 | A Quadratic Relations | Determine the equation of a parabola in vertex form from its graph. | A2.4 | Lesson 13 | Yes | Lesson practice | G10 Strand A Mixed Practice | Q29-Q31 |
-| 10 | A Quadratic Relations | Factor polynomial expressions using common factors, trinomials, and differences of squares. | A3.1 | Lesson 14 | Yes | Lesson practice | G10 Strand A Mixed Practice | Q32-Q36 |
+| 10 | A Quadratic Relations | Factor polynomial expressions using common factors, trinomials, and differences of squares. | A3.1 | Lesson 14 | Yes | Lesson practice | G10 Strand A Mixed Practice | Partial through Q33-Q35 |
 | 10 | A Quadratic Relations | Expand and simplify second-degree polynomial expressions. | A3.2 | Lesson 14 | Yes | Lesson practice | G10 Strand A Mixed Practice | Q32-Q36 |
 | 10 | A Quadratic Relations | Relate factors to zeros and x-intercepts of a quadratic relation. | A3.3 | Lesson 14 | Yes | Lesson practice | G10 Strand A Mixed Practice | Q32-Q36 |
-| 10 | A Quadratic Relations | Use completing the square in cases without fractional coefficients. | A3.4 | Lesson 14 | Yes | Lesson practice | G10 Strand A Mixed Practice | Q32-Q36 |
-| 10 | A Quadratic Relations | Relate the number of real roots to the x-intercepts of the parabola. | A3.5 | Lesson 14 | Yes | Lesson practice | G10 Strand A Mixed Practice | Q32-Q36 |
-| 10 | A Quadratic Relations | Explain how the quadratic formula arises from completing the square. | A3.6 | Lesson 14 | Yes | Lesson practice | G10 Strand A Mixed Practice | Q32-Q36 |
+| 10 | A Quadratic Relations | Use completing the square in cases without fractional coefficients. | A3.4 | Lesson 14 | Yes | Lesson practice | G10 Strand A Mixed Practice | Not directly isolated in mock |
+| 10 | A Quadratic Relations | Relate the number of real roots to the x-intercepts of the parabola. | A3.5 | Lesson 14 | Yes | Lesson practice | G10 Strand A Mixed Practice | Partial through Q34-Q37 |
+| 10 | A Quadratic Relations | Explain how the quadratic formula arises from completing the square. | A3.6 | Lesson 14 | Yes | Lesson practice | G10 Strand A Mixed Practice | Not directly isolated in mock |
 | 10 | A Quadratic Relations | Solve quadratic equations using factoring, the quadratic formula, or graphing. | A3.7 | Lesson 14 | Yes | Lesson practice | G10 Strand A Mixed Practice | Q32-Q36 |
-| 10 | A Quadratic Relations | Sketch or graph a quadratic relation given in standard form. | A3.8 | Lesson 14 | Yes | Lesson practice | G10 Strand A Mixed Practice | Q32-Q36 |
+| 10 | A Quadratic Relations | Sketch or graph a quadratic relation given in standard form. | A3.8 | Lesson 14 | Yes | Lesson practice | G10 Strand A Mixed Practice | Not directly isolated in mock |
 | 10 | A Quadratic Relations | Determine zeros and maximum or minimum values from a graph or equation. | A4.1 | Lesson 15 | Yes | Lesson practice | G10 Strand A Mixed Practice | Q37-Q39 |
 | 10 | A Quadratic Relations | Solve contextual problems represented by quadratic graphs or equations. | A4.2 | Lesson 15 | Yes | Lesson practice | G10 Strand A Mixed Practice | Q37-Q39 |
 | 10 | B Analytic Geometry | Solve systems of linear equations by substitution or elimination. | B1.1 | Lesson 16 | Yes | Lesson practice | G10 Strand B Mixed Practice | Q40-Q42 |
@@ -2596,17 +2593,17 @@ Use this table after every lesson, mixed set, and mock test. The goal is not jus
 | 10 | B Analytic Geometry | Solve problems involving properties of line segments in the coordinate plane. | B2.5 | Lesson 17 | Yes | Lesson practice | G10 Strand B Mixed Practice | Q43-Q45 |
 | 10 | B Analytic Geometry | Investigate properties and characteristics of geometric figures using coordinates. | B3.1 | Lesson 18 | Yes | Lesson practice | G10 Strand B Mixed Practice | Q46-Q47 |
 | 10 | B Analytic Geometry | Verify geometric properties of triangles and quadrilaterals using algebra and analytic geometry. | B3.2 | Lesson 18 | Yes | Lesson practice | G10 Strand B Mixed Practice | Q46-Q47 |
-| 10 | B Analytic Geometry | Plan and carry out multi-step analytic-geometry arguments. | B3.3 | Lesson 18 | Yes | Lesson practice | G10 Strand B Mixed Practice | Q46-Q47 |
+| 10 | B Analytic Geometry | Plan and carry out multi-step analytic-geometry arguments. | B3.3 | Lesson 18 | Yes | Lesson practice | G10 Strand B Mixed Practice | Not directly isolated in mock |
 | 10 | C Trigonometry | Verify and use properties of similar triangles. | C1.1 | Lesson 19 | Yes | Lesson practice | G10 Strand C Mixed Practice | Q48-Q49 |
 | 10 | C Trigonometry | Compare similarity and congruence. | C1.2 | Lesson 19 | Yes | Lesson practice | G10 Strand C Mixed Practice | Q48-Q49 |
 | 10 | C Trigonometry | Solve real-life problems involving similar triangles. | C1.3 | Lesson 19 | Yes | Lesson practice | G10 Strand C Mixed Practice | Q48-Q49 |
 | 10 | C Trigonometry | Define sine, cosine, and tangent using similar right triangles. | C2.1 | Lesson 20 | Yes | Lesson practice | G10 Strand C Mixed Practice | Q50-Q52 |
 | 10 | C Trigonometry | Determine unknown sides and angles in right triangles. | C2.2 | Lesson 20 | Yes | Lesson practice | G10 Strand C Mixed Practice | Q50-Q52 |
 | 10 | C Trigonometry | Solve applied problems involving right triangles. | C2.3 | Lesson 20 | Yes | Lesson practice | G10 Strand C Mixed Practice | Q50-Q52 |
-| 10 | C Trigonometry | Explore why the sine law works. | C3.1 | Lesson 21 | Yes | Lesson practice | G10 Strand C Mixed Practice | Q53-Q54 |
+| 10 | C Trigonometry | Explore why the sine law works. | C3.1 | Lesson 21 | Yes | Lesson practice | G10 Strand C Mixed Practice | Not directly isolated in mock |
 | 10 | C Trigonometry | Decide when acute-triangle problems require the sine law or cosine law. | C3.2 | Lesson 21 | Yes | Lesson practice | G10 Strand C Mixed Practice | Q53-Q54 |
 | 10 | C Trigonometry | Determine unknown sides and angles in acute triangles using the sine law or cosine law. | C3.3 | Lesson 21 | Yes | Lesson practice | G10 Strand C Mixed Practice | Q53-Q54 |
-| 10 | C Trigonometry | Explore why the cosine law generalizes the Pythagorean theorem. | C3.4 | Lesson 21 | Yes | Lesson practice | G10 Strand C Mixed Practice | Q53-Q54 |
+| 10 | C Trigonometry | Explore why the cosine law generalizes the Pythagorean theorem. | C3.4 | Lesson 21 | Yes | Lesson practice | G10 Strand C Mixed Practice | Not directly isolated in mock |
 
 
 ## PART 17 — FINAL CURRICULUM AUDIT
