@@ -786,9 +786,8 @@ The repository content explicitly states that it is a study support resource rat
 \section*{Suggested compilation}
 Compile with a standard PDF LaTeX workflow such as:
 \begin{verbatim}
-pdflatex Ontario-Intermediate-Math-ABQ-Textbook.tex
-pdflatex Ontario-Intermediate-Math-ABQ-Textbook.tex
+latexmk -pdf Ontario-Intermediate-Math-ABQ-Textbook.tex
 \end{verbatim}
-A LaTeX build engine such as \texttt{latexmk -pdf} may also be used.
+If you prefer \texttt{pdflatex}, run it repeatedly until the table of contents and cross-references stop changing.
 
 \end{document}
