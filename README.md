@@ -1,9 +1,11 @@
-# Ontario Intermediate Mathematics ABQ Entry Test  
+# Ontario Intermediate Mathematics ABQ Entry Test
 ## Comprehensive Study Package (Grade 9 MTH1W + Grade 10 Academic MPM2D, 2005)
 
 > **Audience:** Ontario Certified Teacher preparing for Trent University Intermediate Mathematics ABQ entry test in a 2–3 day intensive window (15–20 hours).
 >
 > **Important label:** This is a **curriculum-aligned preparation package** and **not an official Trent University practice test**.
+
+> **Standalone file version:** [Ontario Intermediate Mathematics ABQ Study Package](./Ontario-Intermediate-Math-ABQ-Study-Package.md)
 
 ---
 
@@ -132,41 +134,41 @@ Fractions, decimals, percent, ratio/proportion, signed numbers, BEDMAS, algebrai
 
 > Covers Grade 9 and Grade 10 Academic. Use it to set priorities, not to predict pass/fail.
 
-1. Simplify \(5x-2(3x-4)\).  
-2. Solve \(2x+9=3x-5\).  
-3. Evaluate \(\frac{(2^5)(2^{-3})}{2^2}\).  
-4. Convert 0.0062 to scientific notation.  
-5. Is \(y=2x^2-3x+1\) linear or non-linear? Why?  
-6. Make a table for \(y=-x+4\), x=-2..3.  
-7. Determine if points (1,2), (3,6), (5,10) are linear.  
-8. Rearrange \(V=IR\) for R.  
-9. Plot and identify slope of \(y=-\frac{3}{2}x+1\).  
-10. Find midpoint of A(-4,6), B(8,-2).  
-11. Distance between (2,1) and (8,10).  
-12. Decide if lines with slopes 3 and -1/3 are perpendicular.  
-13. Determine equation of line through (2,-1) and (6,7).  
-14. Expand \((x-5)^2\).  
-15. Factor \(x^2-7x+12\).  
-16. Solve \(x^2-9=0\).  
-17. Find zeros of \(y=x^2+2x-8\).  
-18. State axis of symmetry for \(y=2x^2-8x+1\).  
-19. Vertex of \(y=(x-3)^2-5\).  
-20. Does \(y=-2(x+1)^2+7\) open up or down?  
-21. Solve right triangle: hypotenuse 13, one leg 5.  
-22. Right triangle: opposite=7, adjacent=24; find angle.  
-23. Use cosine law: sides 8,10 included angle 60°, find third side.  
-24. Use sine law: \(a=9\), A=30°, B=45°; find b.  
-25. Surface area of cylinder r=3, h=10.  
-26. Volume of triangular prism (base area 18, length 7).  
-27. Identify one possible bias in an online poll.  
-28. From data set 3,5,7,7,9 compute mean and median.  
-29. Theoretical probability of drawing red from 5 red, 7 blue cards.  
-30. Experimental probability: 18 heads in 40 flips.  
-31. Compare simple vs compound interest idea (conceptual).  
-32. A laptop depreciates 12% yearly from $1200; value after 1 year.  
-33. Budget changes: income drops by 8%; list 2 reasonable adjustments.  
-34. Determine whether relation represented by table has constant second difference (given sequence 3,8,15,24).  
-35. Explain why equivalent algebraic forms can aid graphing.  
+1. Simplify \(5x-2(3x-4)\).
+2. Solve \(2x+9=3x-5\).
+3. Evaluate \(\frac{(2^5)(2^{-3})}{2^2}\).
+4. Convert 0.0062 to scientific notation.
+5. Is \(y=2x^2-3x+1\) linear or non-linear? Why?
+6. Make a table for \(y=-x+4\), x=-2..3.
+7. Determine if points (1,2), (3,6), (5,10) are linear.
+8. Rearrange \(V=IR\) for R.
+9. Plot and identify slope of \(y=-\frac{3}{2}x+1\).
+10. Find midpoint of A(-4,6), B(8,-2).
+11. Distance between (2,1) and (8,10).
+12. Decide if lines with slopes 3 and -1/3 are perpendicular.
+13. Determine equation of line through (2,-1) and (6,7).
+14. Expand \((x-5)^2\).
+15. Factor \(x^2-7x+12\).
+16. Solve \(x^2-9=0\).
+17. Find zeros of \(y=x^2+2x-8\).
+18. State axis of symmetry for \(y=2x^2-8x+1\).
+19. Vertex of \(y=(x-3)^2-5\).
+20. Does \(y=-2(x+1)^2+7\) open up or down?
+21. Solve right triangle: hypotenuse 13, one leg 5.
+22. Right triangle: opposite=7, adjacent=24; find angle.
+23. Use cosine law: sides 8,10 included angle 60°, find third side.
+24. Use sine law: \(a=9\), A=30°, B=45°; find b.
+25. Surface area of cylinder r=3, h=10.
+26. Volume of triangular prism (base area 18, length 7).
+27. Identify one possible bias in an online poll.
+28. From data set 3,5,7,7,9 compute mean and median.
+29. Theoretical probability of drawing red from 5 red, 7 blue cards.
+30. Experimental probability: 18 heads in 40 flips.
+31. Compare simple vs compound interest idea (conceptual).
+32. A laptop depreciates 12% yearly from $1200; value after 1 year.
+33. Budget changes: income drops by 8%; list 2 reasonable adjustments.
+34. Determine whether relation represented by table has constant second difference (given sequence 3,8,15,24).
+35. Explain why equivalent algebraic forms can aid graphing.
 36. Solve multi-step: rectangle perimeter 50, length is 3 more than width.
 
 ### Diagnostic skill interpretation
@@ -246,15 +248,15 @@ Fractions, decimals, percent, ratio/proportion, signed numbers, BEDMAS, algebrai
 > **Priority labels:** CORE / IMPORTANT / SUPPORTING (study recommendation only)
 
 ### G9-L1 Number Sets and Number-System Development (B1.1, B1.2, B1.3) — IMPORTANT
-**Curriculum connection:** Grade 9, Strand B, B1.1/B1.2/B1.3  
-**Why this matters:** Supports precision with rational/irrational reasoning and later algebra/trig definitions.  
-**Prerequisites:** Integers, fractions, decimals, basic set notation.  
-**Core concept:** Real-number system structure, density, and infinite sets.  
-**Key vocabulary:** natural, integer, rational, irrational, real, density, limit.  
-**Key rules/formulas:** Rational = ratio of integers; irrationals non-terminating non-repeating decimals.  
-**Worked example:** Classify \(\sqrt{49},\sqrt{2},-3.75,\frac{11}{3}\) by subsets; justify membership.  
-**Test-level example:** Explain why between any two rationals there are infinitely many rationals.  
-**Common mistakes:** Treating repeating decimals as irrational; assuming “next” real number exists.  
+**Curriculum connection:** Grade 9, Strand B, B1.1/B1.2/B1.3
+**Why this matters:** Supports precision with rational/irrational reasoning and later algebra/trig definitions.
+**Prerequisites:** Integers, fractions, decimals, basic set notation.
+**Core concept:** Real-number system structure, density, and infinite sets.
+**Key vocabulary:** natural, integer, rational, irrational, real, density, limit.
+**Key rules/formulas:** Rational = ratio of integers; irrationals non-terminating non-repeating decimals.
+**Worked example:** Classify \(\sqrt{49},\sqrt{2},-3.75,\frac{11}{3}\) by subsets; justify membership.
+**Test-level example:** Explain why between any two rationals there are infinitely many rationals.
+**Common mistakes:** Treating repeating decimals as irrational; assuming “next” real number exists.
 **Practice (8):** classify numbers; construct examples; density proof sketch; interval questions.
 
 ### G9-L2 Exponents and Scientific Notation (B2.1, B2.2) — CORE
@@ -328,7 +330,7 @@ Fractions, decimals, percent, ratio/proportion, signed numbers, BEDMAS, algebrai
 ## 9) Lesson Set — Grade 10 Academic (2005 pp.47–53)
 
 ### G10-L1 Quadratic Data + Constant Second Differences (A1.1, A1.2) — CORE
-**Curriculum:** Grade 10 Academic, Strand A  
+**Curriculum:** Grade 10 Academic, Strand A
 - Build quadratic model from data; verify second differences.
 - Worked example: table \((x,y)\): (0,1),(1,4),(2,9),(3,16); determine relation class.
 - Practice (8).
@@ -402,38 +404,38 @@ Fractions, decimals, percent, ratio/proportion, signed numbers, BEDMAS, algebrai
 ## 10) Grade 9 -> Grade 10 Connection Callouts
 
 ### Connection 1
-**Grade 9 Foundation:** C1.4 linear equation solving  
-↓  
-**Grade 10 Development:** A3.1 quadratic solving by factoring  
-↓  
+**Grade 9 Foundation:** C1.4 linear equation solving
+↓
+**Grade 10 Development:** A3.1 quadratic solving by factoring
+↓
 **Test Application:** solve dimension/area word problem leading to quadratic.
 
 ### Connection 2
-**Grade 9 Foundation:** C3.1 linear/non-linear representation  
-↓  
-**Grade 10 Development:** A1.2 constant second differences and parabolic modelling  
-↓  
+**Grade 9 Foundation:** C3.1 linear/non-linear representation
+↓
+**Grade 10 Development:** A1.2 constant second differences and parabolic modelling
+↓
 **Test Application:** decide whether data is linear or quadratic and justify.
 
 ### Connection 3
-**Grade 9 Foundation:** E2.2 slope and equation of line  
-↓  
-**Grade 10 Development:** B2.2 parallel/perpendicular constraints  
-↓  
+**Grade 9 Foundation:** E2.2 slope and equation of line
+↓
+**Grade 10 Development:** B2.2 parallel/perpendicular constraints
+↓
 **Test Application:** find unknown line equation in geometry context.
 
 ### Connection 4
-**Grade 9 Foundation:** Ratios/proportions and right-triangle basics (E1)  
-↓  
-**Grade 10 Development:** C1/C2 trig ratios, sine law, cosine law  
-↓  
+**Grade 9 Foundation:** Ratios/proportions and right-triangle basics (E1)
+↓
+**Grade 10 Development:** C1/C2 trig ratios, sine law, cosine law
+↓
 **Test Application:** solve multi-triangle distance problem.
 
 ### Connection 5
-**Grade 9 Foundation:** D2 probability interpretation + F1 financial percent change  
-↓  
-**Grade 10 Development:** modelling and justification in contextual tasks  
-↓  
+**Grade 9 Foundation:** D2 probability interpretation + F1 financial percent change
+↓
+**Grade 10 Development:** modelling and justification in contextual tasks
+↓
 **Test Application:** compare realistic options and justify with quantified evidence.
 
 ---
@@ -456,61 +458,61 @@ Fractions, decimals, percent, ratio/proportion, signed numbers, BEDMAS, algebrai
 > **Curriculum-Aligned Practice Assessment — Not an Official Trent University Practice Test**
 
 ### Questions 1–56 (mixed order, topic not labelled)
-1. \(4x-3(2x-5)=17\) solve.  
-2. Convert \(0.00084\) to scientific notation.  
-3. Simplify \((2a^3b^{-2})(3a^{-1}b^5)\).  
-4. From table values decide linear/non-linear with justification.  
-5. Rearrange \(I=\frac{V}{R}\) for V and for R.  
-6. Line through (1,2), (5,14): equation.  
-7. Distance between (-2,3) and (4,-5).  
-8. Midpoint of endpoints of diameter; infer circle center.  
-9. Determine if lines \(2x-3y=6\) and \(4x-6y=1\) intersect/parallel/coincident.  
-10. Coordinate proof: triangle with points A(0,0),B(6,0),C(2,4) right or not?  
-11. Expand \((x+2)^2\).  
-12. Factor \(x^2+5x+6\).  
-13. Solve \(x^2-4x-12=0\).  
-14. Find zeros of \(y=-x^2+2x+3\).  
-15. Identify vertex and axis of \(y=(x+1)^2-9\).  
-16. Describe transformation from \(y=x^2\) to \(y=-3(x-2)^2+4\).  
-17. A ball path \(h(t)=-5t^2+20t+1\): max height/time.  
-18. Similar-triangle side ratio problem.  
-19. Right triangle with opposite 9, adjacent 12: angle.  
-20. Right triangle with hypotenuse 25 and leg 7: other leg.  
-21. Solve acute triangle (SAS) using cosine law.  
-22. Solve acute triangle (ASA/AAS) using sine law.  
-23. Explain when sine law vs cosine law is selected.  
-24. Bearing problem with two-stage displacement.  
-25. Composite area (rectangle + semicircle).  
-26. Surface area of triangular prism.  
-27. Volume change under scale factor 1.5.  
-28. Analyze scatter plot trend and outlier effect.  
-29. Compute mean/median of provided set.  
-30. Identify potential sampling bias and fix method.  
-31. Theoretical probability from bag contents.  
-32. Experimental probability from trial table; compare.  
-33. Multi-step probability (without replacement).  
-34. Financial: 18% appreciation after 1 year.  
-35. Financial: 12% depreciation for 2 years (sequential).  
-36. Compare borrowing plans: different rates and down payments.  
-37. Update budget after income and rent changes.  
-38. Determine if claim from graph is valid.  
-39. Equation from verbal relationship then solve.  
-40. Build quadratic equation from roots 3 and -2.  
-41. Find intersection of line and parabola given equations.  
-42. Determine line through point parallel to given standard-form line.  
-43. Determine line through point perpendicular to given slope.  
-44. Validate whether quadrilateral is parallelogram from coordinates.  
-45. Evaluate and compare two algebraic models in context.  
-46. Constant second difference completion problem.  
-47. Interpret y-intercept and zeros in context statement.  
-48. Multi-step geometry using trig + area formula.  
-49. Solve contextual height-distance using angle of elevation.  
-50. Explain an error in a student’s exponent simplification.  
-51. Determine most efficient algebraic strategy for expression.  
-52. Critique a misleading “average” claim with data.  
-53. Mixed equation involving fractions and variables.  
-54. Estimate/check reasonableness of numeric answer.  
-55. Non-routine integrated problem (algebra + finance).  
+1. \(4x-3(2x-5)=17\) solve.
+2. Convert \(0.00084\) to scientific notation.
+3. Simplify \((2a^3b^{-2})(3a^{-1}b^5)\).
+4. From table values decide linear/non-linear with justification.
+5. Rearrange \(I=\frac{V}{R}\) for V and for R.
+6. Line through (1,2), (5,14): equation.
+7. Distance between (-2,3) and (4,-5).
+8. Midpoint of endpoints of diameter; infer circle center.
+9. Determine if lines \(2x-3y=6\) and \(4x-6y=1\) intersect/parallel/coincident.
+10. Coordinate proof: triangle with points A(0,0),B(6,0),C(2,4) right or not?
+11. Expand \((x+2)^2\).
+12. Factor \(x^2+5x+6\).
+13. Solve \(x^2-4x-12=0\).
+14. Find zeros of \(y=-x^2+2x+3\).
+15. Identify vertex and axis of \(y=(x+1)^2-9\).
+16. Describe transformation from \(y=x^2\) to \(y=-3(x-2)^2+4\).
+17. A ball path \(h(t)=-5t^2+20t+1\): max height/time.
+18. Similar-triangle side ratio problem.
+19. Right triangle with opposite 9, adjacent 12: angle.
+20. Right triangle with hypotenuse 25 and leg 7: other leg.
+21. Solve acute triangle (SAS) using cosine law.
+22. Solve acute triangle (ASA/AAS) using sine law.
+23. Explain when sine law vs cosine law is selected.
+24. Bearing problem with two-stage displacement.
+25. Composite area (rectangle + semicircle).
+26. Surface area of triangular prism.
+27. Volume change under scale factor 1.5.
+28. Analyze scatter plot trend and outlier effect.
+29. Compute mean/median of provided set.
+30. Identify potential sampling bias and fix method.
+31. Theoretical probability from bag contents.
+32. Experimental probability from trial table; compare.
+33. Multi-step probability (without replacement).
+34. Financial: 18% appreciation after 1 year.
+35. Financial: 12% depreciation for 2 years (sequential).
+36. Compare borrowing plans: different rates and down payments.
+37. Update budget after income and rent changes.
+38. Determine if claim from graph is valid.
+39. Equation from verbal relationship then solve.
+40. Build quadratic equation from roots 3 and -2.
+41. Find intersection of line and parabola given equations.
+42. Determine line through point parallel to given standard-form line.
+43. Determine line through point perpendicular to given slope.
+44. Validate whether quadrilateral is parallelogram from coordinates.
+45. Evaluate and compare two algebraic models in context.
+46. Constant second difference completion problem.
+47. Interpret y-intercept and zeros in context statement.
+48. Multi-step geometry using trig + area formula.
+49. Solve contextual height-distance using angle of elevation.
+50. Explain an error in a student’s exponent simplification.
+51. Determine most efficient algebraic strategy for expression.
+52. Critique a misleading “average” claim with data.
+53. Mixed equation involving fractions and variables.
+54. Estimate/check reasonableness of numeric answer.
+55. Non-routine integrated problem (algebra + finance).
 56. Non-routine integrated problem (quadratic + geometry/trig).
 
 ---
@@ -552,8 +554,8 @@ Provide full working during study marking session. Core final values:
 - Mean \(\bar{x}=\frac{\sum x}{n}\), median middle value, probability \(P(E)=\frac{\text{favourable}}{\text{total}}\).
 
 ### Finance
-- Percent change: new = old\((1\pm r)\).  
-- Simple interest: \(I=Prt\).  
+- Percent change: new = old\((1\pm r)\).
+- Simple interest: \(I=Prt\).
 - Compound growth/decay: \(A=P(1+r)^t\) (as applicable in course contexts).
 
 ---
