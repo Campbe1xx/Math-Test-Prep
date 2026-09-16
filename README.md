@@ -6,6 +6,9 @@
 > **Important label:** This is a **curriculum-aligned preparation package** and **not an official Trent University practice test**.
 
 > **Standalone file version:** [Ontario Intermediate Mathematics ABQ Study Package](./Ontario-Intermediate-Math-ABQ-Study-Package.md)
+>
+> **LaTeX textbook source:** `Ontario-Intermediate-Math-ABQ-Textbook.tex`  
+> Compile with `pdflatex Ontario-Intermediate-Math-ABQ-Textbook.tex` (run twice) or `latexmk -pdf Ontario-Intermediate-Math-ABQ-Textbook.tex`.
 
 ---
 
@@ -687,4 +690,3 @@ Use this after every practice block and mock correction.
 
 ### Final note
 Use this package as a high-density refresher. Prioritize correction quality, not just question volume.
-
