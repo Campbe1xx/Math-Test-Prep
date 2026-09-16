@@ -351,23 +351,31 @@ No major formula; use set inclusion notation and interval reasoning.
 
 #### Worked Example
 - **Problem:** Classify 5, -3, 2/7, 0.125, and √2 into the smallest relevant number set, then explain whether each is also real.
-- **Given:** Identify the relevant mathematical objects, values, or relationships.
-- **Find:** The required classification, expression, graph feature, or numerical result.
-- **Strategy:** Choose the representation or rule that matches the structure of the problem.
-- **Calculation / Reasoning:** Show the critical algebra, arithmetic, or geometric relationship carefully.
-- **Check:** Ask whether the sign, unit, graph feature, or context makes sense.
-- **Final Answer:** State the result in a complete mathematical sentence.
-- **Why it works:** Tie the method back to the main concept of the lesson.
+- **Given:** A collection of natural, integer, rational, decimal, and irrational-looking numbers.
+- **Find:** The smallest number set for each value.
+- **Strategy:** Rewrite each number in a simpler form if needed, then classify from smallest suitable set upward.
+- **Calculation / Reasoning:**
+  1. 5 is a natural number, so it is also whole, integer, rational, and real.
+  2. -3 is an integer, so it is also rational and real.
+  3. 2/7 is a ratio of integers, so it is rational and real.
+  4. 0.125 = 1/8, so it is rational and real.
+  5. √2 cannot be written as a ratio of integers, so it is irrational and real.
+- **Check:** Every number listed belongs to the real numbers; only √2 is irrational.
+- **Final Answer:** Smallest sets: 5 natural, -3 integer, 2/7 rational, 0.125 rational, √2 irrational.
+- **Underlying reasoning:** Classification depends on the most specific true description, not the largest set containing the number.
 
 #### Test-Level Example
-- **Problem:** Explain why there are infinitely many rational numbers between 0.2 and 0.3 by constructing three examples and then describing a general method.
-- **Given:** Extract the mathematical information from the wording or representation.
-- **Find:** The unknown quantity, equation, or conclusion.
-- **Strategy:** Choose the most efficient method and justify it.
-- **Calculation / Reasoning:** Keep the work organized and label formulas or properties when useful.
-- **Check:** Verify by substitution, estimation, or contextual sense.
-- **Final Answer:** Write the answer clearly with correct units or interpretation.
-- **Why it works:** Explain the deeper idea or common transfer from simpler problems.
+- **Problem:** Explain why there are infinitely many rational numbers between 0.2 and 0.3.
+- **Given:** Two decimals with 0.2 < 0.3.
+- **Find:** A convincing mathematical explanation.
+- **Strategy:** Produce examples and then describe a repeatable method.
+- **Calculation / Reasoning:**
+  1. 0.25 lies between 0.2 and 0.3.
+  2. So do 0.21, 0.201, 0.2001, and 0.299.
+  3. More generally, once one rational number lies between two others, its midpoint with either endpoint gives another rational number still between them.
+- **Check:** Each listed value is a terminating decimal, hence rational.
+- **Final Answer:** There are infinitely many rational numbers between 0.2 and 0.3 because midpointing or refining decimal places always creates another rational number in the interval.
+- **Underlying reasoning:** Rational numbers are dense: between any two distinct real numbers, another rational number exists.
 
 #### Common Mistakes
 Confusing “integer” with “whole number”; believing no numbers lie between close decimals; assuming repeating decimals are irrational.
@@ -404,24 +412,29 @@ base; exponent; power; reciprocal; scientific notation
 a^m·a^n=a^(m+n); a^m/a^n=a^(m-n); (a^m)^n=a^(mn); a^0=1 for a≠0; a^-n=1/a^n
 
 #### Worked Example
-- **Problem:** Simplify (2^3)(2^-5) and explain each exponent step before writing the final answer.
-- **Given:** Identify the relevant mathematical objects, values, or relationships.
-- **Find:** The required classification, expression, graph feature, or numerical result.
-- **Strategy:** Choose the representation or rule that matches the structure of the problem.
-- **Calculation / Reasoning:** Show the critical algebra, arithmetic, or geometric relationship carefully.
-- **Check:** Ask whether the sign, unit, graph feature, or context makes sense.
-- **Final Answer:** State the result in a complete mathematical sentence.
-- **Why it works:** Tie the method back to the main concept of the lesson.
+- **Problem:** Simplify (2^3)(2^-5).
+- **Given:** Same base, so exponent laws apply.
+- **Find:** A simplified exact value.
+- **Strategy:** Add exponents when multiplying like bases.
+- **Calculation / Reasoning:**
+  1. (2^3)(2^-5) = 2^(3 + -5) = 2^-2.
+  2. 2^-2 = 1/2^2 = 1/4.
+- **Check:** 2^3 = 8 and 2^5 = 32, so 8/32 = 1/4.
+- **Final Answer:** 1/4.
+- **Underlying reasoning:** A negative exponent means reciprocal, not a negative value.
 
 #### Test-Level Example
-- **Problem:** Write 0.000456 in scientific notation, then compare it to 4.56 × 10^-5 and explain the difference.
-- **Given:** Extract the mathematical information from the wording or representation.
-- **Find:** The unknown quantity, equation, or conclusion.
-- **Strategy:** Choose the most efficient method and justify it.
-- **Calculation / Reasoning:** Keep the work organized and label formulas or properties when useful.
-- **Check:** Verify by substitution, estimation, or contextual sense.
-- **Final Answer:** Write the answer clearly with correct units or interpretation.
-- **Why it works:** Explain the deeper idea or common transfer from simpler problems.
+- **Problem:** Write 0.000456 in scientific notation.
+- **Given:** A small decimal less than 1.
+- **Find:** The form a × 10^n with 1 ≤ a < 10.
+- **Strategy:** Move the decimal to create a number between 1 and 10, then compensate with a power of ten.
+- **Calculation / Reasoning:**
+  1. Move the decimal 4 places right: 0.000456 → 4.56.
+  2. Because the decimal moved right, the exponent is negative.
+  3. Therefore 0.000456 = 4.56 × 10^-4.
+- **Check:** 10^-4 = 0.0001, and 4.56 × 0.0001 = 0.000456.
+- **Final Answer:** 4.56 × 10^-4.
+- **Underlying reasoning:** Scientific notation records both size and place value efficiently.
 
 #### Common Mistakes
 Dropping the sign on a negative exponent; confusing (-3)^2 with -3^2; multiplying exponents when multiplying like bases.
@@ -461,24 +474,28 @@ integer; mixed number; unit fraction; ratio; rate; proportion; percent change
 percent = part/whole × 100%; a/b = c/d implies ad = bc
 
 #### Worked Example
-- **Problem:** A scuba diver changes from -12.5 m to -4.5 m. State the change and explain why it is positive.
-- **Given:** Identify the relevant mathematical objects, values, or relationships.
-- **Find:** The required classification, expression, graph feature, or numerical result.
-- **Strategy:** Choose the representation or rule that matches the structure of the problem.
-- **Calculation / Reasoning:** Show the critical algebra, arithmetic, or geometric relationship carefully.
-- **Check:** Ask whether the sign, unit, graph feature, or context makes sense.
-- **Final Answer:** State the result in a complete mathematical sentence.
-- **Why it works:** Tie the method back to the main concept of the lesson.
+- **Problem:** A scuba diver changes from -12.5 m to -4.5 m. State the change.
+- **Given:** Initial depth -12.5 m, final depth -4.5 m.
+- **Find:** Final minus initial.
+- **Strategy:** Use signed subtraction.
+- **Calculation / Reasoning:**
+  1. Change = -4.5 - (-12.5).
+  2. Change = -4.5 + 12.5 = 8.
+- **Check:** The diver moved upward toward the surface, so a positive change makes sense.
+- **Final Answer:** The change is +8 m.
+- **Underlying reasoning:** A positive change does not mean the final value is positive; it means the value increased.
 
 #### Test-Level Example
-- **Problem:** A recipe uses 3/4 cup for 2 servings. How much is needed for 5 servings? Solve with a proportion and check that the result is reasonable.
-- **Given:** Extract the mathematical information from the wording or representation.
-- **Find:** The unknown quantity, equation, or conclusion.
-- **Strategy:** Choose the most efficient method and justify it.
-- **Calculation / Reasoning:** Keep the work organized and label formulas or properties when useful.
-- **Check:** Verify by substitution, estimation, or contextual sense.
-- **Final Answer:** Write the answer clearly with correct units or interpretation.
-- **Why it works:** Explain the deeper idea or common transfer from simpler problems.
+- **Problem:** A recipe uses 3/4 cup for 2 servings. How much is needed for 5 servings?
+- **Given:** 3/4 cup for 2 servings.
+- **Find:** Amount for 5 servings.
+- **Strategy:** Use a proportion or unit rate.
+- **Calculation / Reasoning:**
+  1. Amount per serving = (3/4) ÷ 2 = 3/8 cup.
+  2. For 5 servings: 5 × 3/8 = 15/8 = 1 7/8 cups.
+- **Check:** 5 servings is 2.5 times as many as 2 servings, so the amount should be more than 3/4 cup. It is.
+- **Final Answer:** 1 7/8 cups.
+- **Underlying reasoning:** Proportional situations preserve multiplicative relationships.
 
 #### Common Mistakes
 Adding denominators; ignoring units in rates; using percent and decimal forms interchangeably without converting.
@@ -518,24 +535,31 @@ term; coefficient; constant; equivalent expressions; distributive property; solu
 a(b+c)=ab+ac; to solve an equation, apply inverse operations to both sides
 
 #### Worked Example
-- **Problem:** A gym charges $35 monthly plus $8 per class. Write an expression for the monthly cost for c classes and identify the variable, constant term, and rate.
-- **Given:** Identify the relevant mathematical objects, values, or relationships.
-- **Find:** The required classification, expression, graph feature, or numerical result.
-- **Strategy:** Choose the representation or rule that matches the structure of the problem.
-- **Calculation / Reasoning:** Show the critical algebra, arithmetic, or geometric relationship carefully.
-- **Check:** Ask whether the sign, unit, graph feature, or context makes sense.
-- **Final Answer:** State the result in a complete mathematical sentence.
-- **Why it works:** Tie the method back to the main concept of the lesson.
+- **Problem:** A gym charges $35 monthly plus $8 per class. Write an expression for the monthly cost for c classes.
+- **Given:** Fixed fee 35 and variable fee 8 per class.
+- **Find:** Total monthly cost in terms of c.
+- **Strategy:** Add fixed cost and variable cost.
+- **Calculation / Reasoning:**
+  1. Variable cost = 8c.
+  2. Total cost = 35 + 8c.
+- **Check:** If c=0, the cost is 35, which matches the monthly fee.
+- **Final Answer:** 35 + 8c.
+- **Underlying reasoning:** Expressions generalize repeated calculations into one symbolic form.
 
 #### Test-Level Example
-- **Problem:** Solve 3(2x-5)+4=2(x+7) and verify the solution.
-- **Given:** Extract the mathematical information from the wording or representation.
-- **Find:** The unknown quantity, equation, or conclusion.
-- **Strategy:** Choose the most efficient method and justify it.
-- **Calculation / Reasoning:** Keep the work organized and label formulas or properties when useful.
-- **Check:** Verify by substitution, estimation, or contextual sense.
-- **Final Answer:** Write the answer clearly with correct units or interpretation.
-- **Why it works:** Explain the deeper idea or common transfer from simpler problems.
+- **Problem:** Solve 3(2x-5)+4=2(x+7).
+- **Given:** A linear equation with brackets on both sides.
+- **Find:** x.
+- **Strategy:** Expand both sides, collect like terms, isolate x, and check.
+- **Calculation / Reasoning:**
+  1. Expand: 6x - 15 + 4 = 2x + 14.
+  2. Simplify: 6x - 11 = 2x + 14.
+  3. Subtract 2x: 4x - 11 = 14.
+  4. Add 11: 4x = 25.
+  5. Divide by 4: x = 25/4.
+- **Check:** Left side = 3(7.5) + 4 = 26.5; right side = 2(13.25) = 26.5.
+- **Final Answer:** x = 25/4.
+- **Underlying reasoning:** An equation stays balanced if the same operation is performed on both sides.
 
 #### Common Mistakes
 Combining unlike terms; distributing only to the first term in brackets; failing to check a proposed solution.
@@ -573,24 +597,34 @@ algorithm; variable; parameter; loop; condition; output
 No new formulas; rely on algebraic rules and clear sequencing.
 
 #### Worked Example
-- **Problem:** Write pseudocode that asks for a distance in kilometres and outputs the distance in metres.
-- **Given:** Identify the relevant mathematical objects, values, or relationships.
-- **Find:** The required classification, expression, graph feature, or numerical result.
-- **Strategy:** Choose the representation or rule that matches the structure of the problem.
-- **Calculation / Reasoning:** Show the critical algebra, arithmetic, or geometric relationship carefully.
-- **Check:** Ask whether the sign, unit, graph feature, or context makes sense.
-- **Final Answer:** State the result in a complete mathematical sentence.
-- **Why it works:** Tie the method back to the main concept of the lesson.
+- **Problem:** Write pseudocode that converts kilometres to metres.
+- **Given:** 1 km = 1000 m.
+- **Find:** A clear sequence of instructions.
+- **Strategy:** Input, process, output.
+- **Calculation / Reasoning:**
+  1. Input distance_km.
+  2. distance_m = 1000 × distance_km.
+  3. Output distance_m.
+- **Check:** If the input is 2.5, the output should be 2500.
+- **Final Answer:**
+  - input distance_km
+  - distance_m = 1000 * distance_km
+  - print distance_m
+- **Underlying reasoning:** Coding expresses a mathematical rule as an explicit algorithm.
 
 #### Test-Level Example
-- **Problem:** A program starts with x=4 and repeats “x = 2x - 1” three times. Trace the values and state the final output.
-- **Given:** Extract the mathematical information from the wording or representation.
-- **Find:** The unknown quantity, equation, or conclusion.
-- **Strategy:** Choose the most efficient method and justify it.
-- **Calculation / Reasoning:** Keep the work organized and label formulas or properties when useful.
-- **Check:** Verify by substitution, estimation, or contextual sense.
-- **Final Answer:** Write the answer clearly with correct units or interpretation.
-- **Why it works:** Explain the deeper idea or common transfer from simpler problems.
+- **Problem:** A program starts with x=4 and repeats x = 2x - 1 three times. Find the final output.
+- **Given:** Starting value x=4 and a repeated update rule.
+- **Find:** x after three iterations.
+- **Strategy:** Trace the variable carefully.
+- **Calculation / Reasoning:**
+  1. Start: x=4.
+  2. First repeat: x=2(4)-1=7.
+  3. Second repeat: x=2(7)-1=13.
+  4. Third repeat: x=2(13)-1=25.
+- **Check:** Each update increases the value roughly by doubling and subtracting 1, so 25 is plausible.
+- **Final Answer:** 25.
+- **Underlying reasoning:** Reading code is structured substitution repeated step by step.
 
 #### Common Mistakes
 Treating = as “is always” rather than “update to”; forgetting loop counts; mixing variable names.
@@ -628,24 +662,30 @@ relation; linear; non-linear; first difference; slope; initial value; intersecti
 slope = rise/run; linear form y=mx+b
 
 #### Worked Example
-- **Problem:** Compare the tables x:0,1,2,3 and y:2,5,8,11 with y:1,4,9,16. Decide which relation is linear and justify your answer.
-- **Given:** Identify the relevant mathematical objects, values, or relationships.
-- **Find:** The required classification, expression, graph feature, or numerical result.
-- **Strategy:** Choose the representation or rule that matches the structure of the problem.
-- **Calculation / Reasoning:** Show the critical algebra, arithmetic, or geometric relationship carefully.
-- **Check:** Ask whether the sign, unit, graph feature, or context makes sense.
-- **Final Answer:** State the result in a complete mathematical sentence.
-- **Why it works:** Tie the method back to the main concept of the lesson.
+- **Problem:** Decide which of the relations with y-values 2,5,8,11 and 1,4,9,16 is linear.
+- **Given:** Two tables of values.
+- **Find:** Which relation has constant first differences.
+- **Strategy:** Compute first differences.
+- **Calculation / Reasoning:**
+  1. For 2,5,8,11 the first differences are +3,+3,+3, so the relation is linear.
+  2. For 1,4,9,16 the first differences are +3,+5,+7, so the relation is not linear.
+- **Check:** A linear relation should graph as a straight line, consistent with constant change.
+- **Final Answer:** The first relation is linear; the second is non-linear.
+- **Underlying reasoning:** Constant first differences signal constant rate of change.
 
 #### Test-Level Example
-- **Problem:** Two phone plans are C=25+0.10t and C=10+0.25t. Find the break-even point and interpret it.
-- **Given:** Extract the mathematical information from the wording or representation.
-- **Find:** The unknown quantity, equation, or conclusion.
-- **Strategy:** Choose the most efficient method and justify it.
-- **Calculation / Reasoning:** Keep the work organized and label formulas or properties when useful.
-- **Check:** Verify by substitution, estimation, or contextual sense.
-- **Final Answer:** Write the answer clearly with correct units or interpretation.
-- **Why it works:** Explain the deeper idea or common transfer from simpler problems.
+- **Problem:** Two phone plans are C=25+0.10t and C=10+0.25t. Find the break-even point.
+- **Given:** Two linear cost equations.
+- **Find:** The time/usage t for which costs are equal.
+- **Strategy:** Set the equations equal.
+- **Calculation / Reasoning:**
+  1. 25 + 0.10t = 10 + 0.25t.
+  2. 15 = 0.15t.
+  3. t = 100.
+  4. Substitute back: C = 25 + 0.10(100) = 35.
+- **Check:** 10 + 0.25(100) = 35 as well.
+- **Final Answer:** The plans break even at t=100, with cost $35.
+- **Underlying reasoning:** The intersection of two linear relations represents equal output values.
 
 #### Common Mistakes
 Using only one ordered pair to decide whether a relation is linear; confusing initial value with slope; failing to interpret the intersection.
@@ -684,24 +724,30 @@ horizontal line; vertical line; hyperbola; transformation; translation; reflecti
 x=k is vertical; y=k is horizontal; ax+by=k describes a line when a and b are not both zero
 
 #### Worked Example
-- **Problem:** Sketch x=3, y=-2, x+y=4, and xy=4 on the same axes. State one key feature of each graph.
-- **Given:** Identify the relevant mathematical objects, values, or relationships.
-- **Find:** The required classification, expression, graph feature, or numerical result.
-- **Strategy:** Choose the representation or rule that matches the structure of the problem.
-- **Calculation / Reasoning:** Show the critical algebra, arithmetic, or geometric relationship carefully.
-- **Check:** Ask whether the sign, unit, graph feature, or context makes sense.
-- **Final Answer:** State the result in a complete mathematical sentence.
-- **Why it works:** Tie the method back to the main concept of the lesson.
+- **Problem:** Sketch x=3, y=-2, x+y=4, and xy=4, and identify one feature of each.
+- **Given:** Four relations in different forms.
+- **Find:** Their graph types and one key feature each.
+- **Strategy:** Rewrite when useful.
+- **Calculation / Reasoning:**
+  1. x=3 is a vertical line through x=3.
+  2. y=-2 is a horizontal line through y=-2.
+  3. x+y=4 becomes y=-x+4, a line with slope -1 and y-intercept 4.
+  4. xy=4 becomes y=4/x, a non-linear relation with branches in quadrants I and III.
+- **Check:** Each description matches the algebraic form.
+- **Final Answer:** Vertical line, horizontal line, decreasing straight line, and hyperbola-like curve respectively.
+- **Underlying reasoning:** Distinct equation forms signal distinct graph families.
 
 #### Test-Level Example
-- **Problem:** The graph of y=2x is reflected in the x-axis and then translated up 3 units. Write the new equation.
-- **Given:** Extract the mathematical information from the wording or representation.
-- **Find:** The unknown quantity, equation, or conclusion.
-- **Strategy:** Choose the most efficient method and justify it.
-- **Calculation / Reasoning:** Keep the work organized and label formulas or properties when useful.
-- **Check:** Verify by substitution, estimation, or contextual sense.
-- **Final Answer:** Write the answer clearly with correct units or interpretation.
-- **Why it works:** Explain the deeper idea or common transfer from simpler problems.
+- **Problem:** Reflect y=2x in the x-axis and then translate it up 3 units.
+- **Given:** Original line y=2x.
+- **Find:** The new equation.
+- **Strategy:** Reflection changes the sign of y-values; vertical translation adds to the output.
+- **Calculation / Reasoning:**
+  1. Reflect in the x-axis: y=-2x.
+  2. Translate up 3: y=-2x+3.
+- **Check:** The slope remains -2 after reflection, and the graph is shifted upward.
+- **Final Answer:** y = -2x + 3.
+- **Underlying reasoning:** Transformations change outputs in predictable ways.
 
 #### Common Mistakes
 Treating x=3 as y=3; forgetting that vertical lines have undefined slope; confusing a translation with a reflection.
@@ -739,24 +785,31 @@ quartile; interquartile range; box plot; outlier; correlation; regression
 IQR = Q3 - Q1; correlation describes direction and strength, not causation
 
 #### Worked Example
-- **Problem:** For the data 2, 4, 5, 7, 9, 10, 13, find the median, Q1, Q3, and IQR.
-- **Given:** Identify the relevant mathematical objects, values, or relationships.
-- **Find:** The required classification, expression, graph feature, or numerical result.
-- **Strategy:** Choose the representation or rule that matches the structure of the problem.
-- **Calculation / Reasoning:** Show the critical algebra, arithmetic, or geometric relationship carefully.
-- **Check:** Ask whether the sign, unit, graph feature, or context makes sense.
-- **Final Answer:** State the result in a complete mathematical sentence.
-- **Why it works:** Tie the method back to the main concept of the lesson.
+- **Problem:** For 2, 4, 5, 7, 9, 10, 13 find the median, Q1, Q3, and IQR.
+- **Given:** An ordered data set.
+- **Find:** Basic summary measures.
+- **Strategy:** Locate the middle, then the medians of the lower and upper halves.
+- **Calculation / Reasoning:**
+  1. Median = 7.
+  2. Lower half: 2,4,5 so Q1=4.
+  3. Upper half: 9,10,13 so Q3=10.
+  4. IQR = 10 - 4 = 6.
+- **Check:** Q1 < median < Q3, as expected.
+- **Final Answer:** Median 7, Q1 4, Q3 10, IQR 6.
+- **Underlying reasoning:** Quartiles partition ordered data into four equal-position groups.
 
 #### Test-Level Example
-- **Problem:** A scatter plot of study time versus test score shows a positive trend with one outlier. Explain what can and cannot be concluded from the graph.
-- **Given:** Extract the mathematical information from the wording or representation.
-- **Find:** The unknown quantity, equation, or conclusion.
-- **Strategy:** Choose the most efficient method and justify it.
-- **Calculation / Reasoning:** Keep the work organized and label formulas or properties when useful.
-- **Check:** Verify by substitution, estimation, or contextual sense.
-- **Final Answer:** Write the answer clearly with correct units or interpretation.
-- **Why it works:** Explain the deeper idea or common transfer from simpler problems.
+- **Problem:** A scatter plot of study time versus test score shows a positive trend with one outlier. What can be concluded?
+- **Given:** Positive association plus one unusual point.
+- **Find:** A careful interpretation.
+- **Strategy:** Describe trend strength without claiming causation.
+- **Calculation / Reasoning:**
+  1. More study time is generally associated with higher scores.
+  2. The outlier suggests at least one case does not follow the trend.
+  3. The graph alone does not prove that study time caused the score change.
+- **Check:** The language stays within what a scatter plot can support.
+- **Final Answer:** The data suggest a positive correlation with an outlier, but not proof of causation.
+- **Underlying reasoning:** Statistical graphics support inference, not certainty.
 
 #### Common Mistakes
 Calling correlation causation; using the mean when an outlier makes the median more informative; reading box plots as if they were bar graphs.
@@ -796,24 +849,30 @@ model; variable; assumption; sampling; fit; limitation; prediction
 No fixed formula; modelling uses an iterative cycle: question → data → representation → interpretation → revision.
 
 #### Worked Example
-- **Problem:** A school wants to estimate total concession sales from attendance. Identify the response variable, one explanatory variable, and a reasonable data-collection plan.
-- **Given:** Identify the relevant mathematical objects, values, or relationships.
-- **Find:** The required classification, expression, graph feature, or numerical result.
-- **Strategy:** Choose the representation or rule that matches the structure of the problem.
-- **Calculation / Reasoning:** Show the critical algebra, arithmetic, or geometric relationship carefully.
-- **Check:** Ask whether the sign, unit, graph feature, or context makes sense.
-- **Final Answer:** State the result in a complete mathematical sentence.
-- **Why it works:** Tie the method back to the main concept of the lesson.
+- **Problem:** A school wants to estimate concession sales from attendance. Identify variables and a data plan.
+- **Given:** A modelling situation.
+- **Find:** A reasonable explanatory variable, response variable, and plan.
+- **Strategy:** Match cause-like inputs to output-like quantities.
+- **Calculation / Reasoning:**
+  1. Response variable: total concession sales.
+  2. Explanatory variable: attendance.
+  3. Data plan: collect attendance and sales totals over many events, noting event type and season.
+- **Check:** The proposed data directly address the question.
+- **Final Answer:** Use attendance to predict concession sales, supported by event-by-event paired data.
+- **Underlying reasoning:** Useful models require relevant variables and adequate data.
 
 #### Test-Level Example
-- **Problem:** A line of best fit predicts 220 entries at 400 attendees, but the observed value is 150. Explain two possible reasons for the mismatch.
-- **Given:** Extract the mathematical information from the wording or representation.
-- **Find:** The unknown quantity, equation, or conclusion.
-- **Strategy:** Choose the most efficient method and justify it.
-- **Calculation / Reasoning:** Keep the work organized and label formulas or properties when useful.
-- **Check:** Verify by substitution, estimation, or contextual sense.
-- **Final Answer:** Write the answer clearly with correct units or interpretation.
-- **Why it works:** Explain the deeper idea or common transfer from simpler problems.
+- **Problem:** A line of best fit predicts 220 entries at 400 attendees, but the observed value is 150. Give two possible reasons.
+- **Given:** Prediction and observed value differ.
+- **Find:** Plausible modelling explanations.
+- **Strategy:** Think about fit, data quality, and changed conditions.
+- **Calculation / Reasoning:**
+  1. The model may not fit well at higher attendance values.
+  2. The event may have had unusual conditions, such as weather or a special promotion.
+  3. The data used to build the model may have been too limited or biased.
+- **Check:** Each explanation refers to a realistic model limitation.
+- **Final Answer:** The mismatch may come from poor fit, unusual circumstances, or weak data.
+- **Underlying reasoning:** Modelling requires critical evaluation, not blind trust.
 
 #### Common Mistakes
 Collecting data that do not answer the question; predicting far outside the observed range; hiding assumptions.
@@ -854,24 +913,30 @@ conversion factor; scale factor; surface area; volume; hypotenuse; similar figur
 Pythagorean theorem a^2+b^2=c^2; area of circle A=πr^2; circumference C=2πr; volume of prism V=Bh; volume of pyramid/cone V=(1/3)Bh
 
 #### Worked Example
-- **Problem:** Convert 72 km/h to m/s and explain the conversion pathway.
-- **Given:** Identify the relevant mathematical objects, values, or relationships.
-- **Find:** The required classification, expression, graph feature, or numerical result.
-- **Strategy:** Choose the representation or rule that matches the structure of the problem.
-- **Calculation / Reasoning:** Show the critical algebra, arithmetic, or geometric relationship carefully.
-- **Check:** Ask whether the sign, unit, graph feature, or context makes sense.
-- **Final Answer:** State the result in a complete mathematical sentence.
-- **Why it works:** Tie the method back to the main concept of the lesson.
+- **Problem:** Convert 72 km/h to m/s.
+- **Given:** A speed in kilometres per hour.
+- **Find:** The same speed in metres per second.
+- **Strategy:** Convert kilometres to metres and hours to seconds.
+- **Calculation / Reasoning:**
+  1. 72 km = 72 000 m.
+  2. 1 h = 3600 s.
+  3. 72 km/h = 72 000/3600 m/s = 20 m/s.
+- **Check:** 20 m/s is a realistic highway-adjacent speed conversion.
+- **Final Answer:** 20 m/s.
+- **Underlying reasoning:** Compound units must be converted in both numerator and denominator.
 
 #### Test-Level Example
-- **Problem:** A cone and a cylinder have the same radius and height. Compare their volumes and explain why one is one-third of the other.
-- **Given:** Extract the mathematical information from the wording or representation.
-- **Find:** The unknown quantity, equation, or conclusion.
-- **Strategy:** Choose the most efficient method and justify it.
-- **Calculation / Reasoning:** Keep the work organized and label formulas or properties when useful.
-- **Check:** Verify by substitution, estimation, or contextual sense.
-- **Final Answer:** Write the answer clearly with correct units or interpretation.
-- **Why it works:** Explain the deeper idea or common transfer from simpler problems.
+- **Problem:** A cone and cylinder have the same radius and height. Compare their volumes.
+- **Given:** Same base area B and height h.
+- **Find:** Their volume relationship.
+- **Strategy:** Use the formulas directly.
+- **Calculation / Reasoning:**
+  1. Cylinder volume = Bh.
+  2. Cone volume = (1/3)Bh.
+  3. Therefore the cone’s volume is one-third of the cylinder’s volume.
+- **Check:** If B=12 and h=9, cylinder 108 and cone 36, confirming the ratio.
+- **Final Answer:** The cone has one-third the volume of the cylinder.
+- **Underlying reasoning:** The formulas encode the dimensional relationship.
 
 #### Common Mistakes
 Forgetting to square or cube the scale factor; mixing units in one calculation; using the Pythagorean theorem on non-right triangles.
@@ -910,24 +975,29 @@ appreciation; depreciation; principal; simple interest; compound interest; down 
 simple interest I=Prt; compound amount A=P(1+r/n)^(nt) or A=P(1+r)^t when compounded annually
 
 #### Worked Example
-- **Problem:** Compare two loans: $5 000 at 6% simple interest for 3 years versus $5 000 at 5% compound interest annually for 3 years.
-- **Given:** Identify the relevant mathematical objects, values, or relationships.
-- **Find:** The required classification, expression, graph feature, or numerical result.
-- **Strategy:** Choose the representation or rule that matches the structure of the problem.
-- **Calculation / Reasoning:** Show the critical algebra, arithmetic, or geometric relationship carefully.
-- **Check:** Ask whether the sign, unit, graph feature, or context makes sense.
-- **Final Answer:** State the result in a complete mathematical sentence.
-- **Why it works:** Tie the method back to the main concept of the lesson.
+- **Problem:** Compare $5000 at 6% simple interest for 3 years with $5000 at 5% compound interest annually for 3 years.
+- **Given:** Same principal, different interest models.
+- **Find:** Which option costs or earns more after 3 years.
+- **Strategy:** Compute each amount separately.
+- **Calculation / Reasoning:**
+  1. Simple interest: I=Prt=5000(0.06)(3)=900, so total = 5900.
+  2. Compound interest: A=5000(1.05)^3≈5000(1.157625)=5788.13.
+- **Check:** The simple-interest option is larger here because the rate difference is meaningful over only 3 years.
+- **Final Answer:** 6% simple interest gives $5900; 5% annual compound interest gives about $5788.13.
+- **Underlying reasoning:** Total cost or return depends on rate, method, and time together.
 
 #### Test-Level Example
-- **Problem:** A monthly budget has income $2 400 and expenses totaling $2 520. Revise the budget and justify two changes.
-- **Given:** Extract the mathematical information from the wording or representation.
-- **Find:** The unknown quantity, equation, or conclusion.
-- **Strategy:** Choose the most efficient method and justify it.
-- **Calculation / Reasoning:** Keep the work organized and label formulas or properties when useful.
-- **Check:** Verify by substitution, estimation, or contextual sense.
-- **Final Answer:** Write the answer clearly with correct units or interpretation.
-- **Why it works:** Explain the deeper idea or common transfer from simpler problems.
+- **Problem:** A monthly budget has income $2400 and expenses totaling $2520. Revise the budget.
+- **Given:** A deficit of $120.
+- **Find:** A mathematically valid revision.
+- **Strategy:** Reduce expenses, increase income, or both.
+- **Calculation / Reasoning:**
+  1. Current balance = 2400 - 2520 = -120.
+  2. One valid revision is reducing discretionary spending by $80 and transportation by $40.
+  3. New expenses = 2520 - 120 = 2400.
+- **Check:** New total matches income, so the budget balances.
+- **Final Answer:** Any justified revision that closes the $120 gap is acceptable.
+- **Underlying reasoning:** Budgets are constraint problems built from arithmetic and priorities.
 
 #### Common Mistakes
 Comparing interest rates without considering time; forgetting the effect of a down payment on the financed amount; treating appreciation and depreciation as linear without checking.
@@ -968,24 +1038,30 @@ quadratic relation; parabola; second differences; vertex; axis of symmetry; zero
 For y=ax^2+bx+c, axis of symmetry x=-b/(2a); vertex occurs on the axis.
 
 #### Worked Example
-- **Problem:** Determine whether the table y: 1, 4, 9, 16, 25 is quadratic by computing first and second differences.
-- **Given:** Identify the relevant mathematical objects, values, or relationships.
-- **Find:** The required classification, expression, graph feature, or numerical result.
-- **Strategy:** Choose the representation or rule that matches the structure of the problem.
-- **Calculation / Reasoning:** Show the critical algebra, arithmetic, or geometric relationship carefully.
-- **Check:** Ask whether the sign, unit, graph feature, or context makes sense.
-- **Final Answer:** State the result in a complete mathematical sentence.
-- **Why it works:** Tie the method back to the main concept of the lesson.
+- **Problem:** Determine whether y-values 1, 4, 9, 16, 25 are quadratic.
+- **Given:** A sequence of outputs.
+- **Find:** Whether constant second differences occur.
+- **Strategy:** Compute first and second differences.
+- **Calculation / Reasoning:**
+  1. First differences: 3, 5, 7, 9.
+  2. Second differences: 2, 2, 2.
+- **Check:** Constant second differences indicate a quadratic relation.
+- **Final Answer:** Yes, the relation is quadratic.
+- **Underlying reasoning:** Quadratic tables have constant second differences when x-values are equally spaced.
 
 #### Test-Level Example
 - **Problem:** For y=x^2-4x+3, identify the axis of symmetry, vertex, y-intercept, and zeros.
-- **Given:** Extract the mathematical information from the wording or representation.
-- **Find:** The unknown quantity, equation, or conclusion.
-- **Strategy:** Choose the most efficient method and justify it.
-- **Calculation / Reasoning:** Keep the work organized and label formulas or properties when useful.
-- **Check:** Verify by substitution, estimation, or contextual sense.
-- **Final Answer:** Write the answer clearly with correct units or interpretation.
-- **Why it works:** Explain the deeper idea or common transfer from simpler problems.
+- **Given:** A quadratic in standard form.
+- **Find:** Major parabola features.
+- **Strategy:** Use symmetry and factoring.
+- **Calculation / Reasoning:**
+  1. Axis of symmetry: x=-(-4)/(2·1)=2.
+  2. Vertex: substitute x=2 to get y=4-8+3=-1, so vertex (2,-1).
+  3. y-intercept: x=0 gives y=3, so (0,3).
+  4. Zeros: x^2-4x+3=(x-1)(x-3), so x=1 and x=3.
+- **Check:** The vertex lies midway between the zeros 1 and 3.
+- **Final Answer:** Axis x=2, vertex (2,-1), y-intercept (0,3), zeros 1 and 3.
+- **Underlying reasoning:** Multiple representations of the same quadratic should agree.
 
 #### Common Mistakes
 Confusing first differences with second differences; calling the y-intercept a zero; mixing the vertex x-value with the ordered pair.
@@ -1024,24 +1100,31 @@ vertex form; vertical stretch; compression; reflection; translation
 y=a(x-h)^2+k has vertex (h,k) and axis of symmetry x=h
 
 #### Worked Example
-- **Problem:** Describe the transformations from y=x^2 to y=2(x-3)^2-5 and state the vertex and axis of symmetry.
-- **Given:** Identify the relevant mathematical objects, values, or relationships.
-- **Find:** The required classification, expression, graph feature, or numerical result.
-- **Strategy:** Choose the representation or rule that matches the structure of the problem.
-- **Calculation / Reasoning:** Show the critical algebra, arithmetic, or geometric relationship carefully.
-- **Check:** Ask whether the sign, unit, graph feature, or context makes sense.
-- **Final Answer:** State the result in a complete mathematical sentence.
-- **Why it works:** Tie the method back to the main concept of the lesson.
+- **Problem:** Describe the transformations from y=x^2 to y=2(x-3)^2-5.
+- **Given:** A parabola in vertex form.
+- **Find:** Stretch, translation, and vertex information.
+- **Strategy:** Read a, h, and k directly.
+- **Calculation / Reasoning:**
+  1. a=2 gives a vertical stretch by factor 2 and the parabola opens upward.
+  2. h=3 shifts the graph right 3.
+  3. k=-5 shifts the graph down 5.
+  4. Vertex is (3,-5); axis of symmetry is x=3.
+- **Check:** The sign inside the bracket reverses for h, so x-3 means right 3.
+- **Final Answer:** Stretch by 2, right 3, down 5; vertex (3,-5).
+- **Underlying reasoning:** Vertex form packages graph information efficiently.
 
 #### Test-Level Example
-- **Problem:** A parabola has vertex (-1,4) and passes through (0,2). Determine its vertex-form equation.
-- **Given:** Extract the mathematical information from the wording or representation.
-- **Find:** The unknown quantity, equation, or conclusion.
-- **Strategy:** Choose the most efficient method and justify it.
-- **Calculation / Reasoning:** Keep the work organized and label formulas or properties when useful.
-- **Check:** Verify by substitution, estimation, or contextual sense.
-- **Final Answer:** Write the answer clearly with correct units or interpretation.
-- **Why it works:** Explain the deeper idea or common transfer from simpler problems.
+- **Problem:** A parabola has vertex (-1,4) and passes through (0,2). Determine its equation.
+- **Given:** Vertex and one point.
+- **Find:** The value of a in y=a(x-h)^2+k.
+- **Strategy:** Substitute the point into vertex form.
+- **Calculation / Reasoning:**
+  1. Start with y=a(x+1)^2+4.
+  2. Substitute (0,2): 2=a(1)^2+4.
+  3. So a=-2.
+- **Check:** The point is below the vertex, so a negative value is reasonable.
+- **Final Answer:** y=-2(x+1)^2+4.
+- **Underlying reasoning:** One extra point determines the vertical stretch/compression once the vertex is known.
 
 #### Common Mistakes
 Reversing the sign of h; forgetting that h affects x-values horizontally; ignoring the stretch factor when sketching.
@@ -1084,24 +1167,31 @@ trinomial; factor; zero-product property; perfect-square trinomial; discriminant
 quadratic formula x=[-b±√(b^2-4ac)]/(2a); zero-product rule: if uv=0 then u=0 or v=0
 
 #### Worked Example
-- **Problem:** Factor x^2-5x+6 and use the factors to solve x^2-5x+6=0.
-- **Given:** Identify the relevant mathematical objects, values, or relationships.
-- **Find:** The required classification, expression, graph feature, or numerical result.
-- **Strategy:** Choose the representation or rule that matches the structure of the problem.
-- **Calculation / Reasoning:** Show the critical algebra, arithmetic, or geometric relationship carefully.
-- **Check:** Ask whether the sign, unit, graph feature, or context makes sense.
-- **Final Answer:** State the result in a complete mathematical sentence.
-- **Why it works:** Tie the method back to the main concept of the lesson.
+- **Problem:** Factor x^2-5x+6 and solve x^2-5x+6=0.
+- **Given:** A monic quadratic trinomial.
+- **Find:** Factors and roots.
+- **Strategy:** Find two numbers multiplying to 6 and adding to -5.
+- **Calculation / Reasoning:**
+  1. The numbers are -2 and -3.
+  2. So x^2-5x+6=(x-2)(x-3).
+  3. Set each factor to zero: x-2=0 or x-3=0.
+  4. Solutions: x=2 or x=3.
+- **Check:** Substituting 2 or 3 makes the expression zero.
+- **Final Answer:** Factors (x-2)(x-3); solutions x=2,3.
+- **Underlying reasoning:** Factoring reveals the zeros through the zero-product property.
 
 #### Test-Level Example
-- **Problem:** Solve 2x^2+3x-2=0 using the quadratic formula and interpret the number of real roots.
-- **Given:** Extract the mathematical information from the wording or representation.
-- **Find:** The unknown quantity, equation, or conclusion.
-- **Strategy:** Choose the most efficient method and justify it.
-- **Calculation / Reasoning:** Keep the work organized and label formulas or properties when useful.
-- **Check:** Verify by substitution, estimation, or contextual sense.
-- **Final Answer:** Write the answer clearly with correct units or interpretation.
-- **Why it works:** Explain the deeper idea or common transfer from simpler problems.
+- **Problem:** Solve 2x^2+3x-2=0 with the quadratic formula.
+- **Given:** a=2, b=3, c=-2.
+- **Find:** All real solutions.
+- **Strategy:** Substitute into the formula carefully.
+- **Calculation / Reasoning:**
+  1. x=[-3±√(3^2-4(2)(-2))]/[2(2)].
+  2. x=[-3±√(9+16)]/4=[-3±5]/4.
+  3. x=(2)/4=1/2 or x=(-8)/4=-2.
+- **Check:** Each value satisfies the original equation.
+- **Final Answer:** x=1/2 or x=-2.
+- **Underlying reasoning:** The quadratic formula works regardless of whether factoring is obvious.
 
 #### Common Mistakes
 Changing signs incorrectly when factoring; forgetting to set the equation equal to zero; arithmetic errors under the square root.
@@ -1139,23 +1229,30 @@ For y=ax^2+bx+c, the maximum or minimum occurs at x=-b/(2a)
 
 #### Worked Example
 - **Problem:** A ball is modelled by h(t)=-5t^2+20t+1. Find its maximum height.
-- **Given:** Identify the relevant mathematical objects, values, or relationships.
-- **Find:** The required classification, expression, graph feature, or numerical result.
-- **Strategy:** Choose the representation or rule that matches the structure of the problem.
-- **Calculation / Reasoning:** Show the critical algebra, arithmetic, or geometric relationship carefully.
-- **Check:** Ask whether the sign, unit, graph feature, or context makes sense.
-- **Final Answer:** State the result in a complete mathematical sentence.
-- **Why it works:** Tie the method back to the main concept of the lesson.
+- **Given:** A downward-opening quadratic.
+- **Find:** The vertex height.
+- **Strategy:** Use x=-b/(2a) with t as the variable.
+- **Calculation / Reasoning:**
+  1. t=-20/(2·-5)=2.
+  2. h(2)=-5(4)+20(2)+1=-20+40+1=21.
+- **Check:** Because a<0, the vertex gives a maximum.
+- **Final Answer:** The maximum height is 21 units at t=2.
+- **Underlying reasoning:** In a quadratic model, the vertex often represents an optimal value.
 
 #### Test-Level Example
-- **Problem:** The area of a rectangle is 48 m^2 and the length is x+2 while the width is x. Form and solve a quadratic equation to find the dimensions.
-- **Given:** Extract the mathematical information from the wording or representation.
-- **Find:** The unknown quantity, equation, or conclusion.
-- **Strategy:** Choose the most efficient method and justify it.
-- **Calculation / Reasoning:** Keep the work organized and label formulas or properties when useful.
-- **Check:** Verify by substitution, estimation, or contextual sense.
-- **Final Answer:** Write the answer clearly with correct units or interpretation.
-- **Why it works:** Explain the deeper idea or common transfer from simpler problems.
+- **Problem:** The area of a rectangle is 48 m^2, with length x+2 and width x. Find the dimensions.
+- **Given:** x(x+2)=48.
+- **Find:** The positive value of x.
+- **Strategy:** Form and solve a quadratic equation.
+- **Calculation / Reasoning:**
+  1. x^2+2x-48=0.
+  2. Factor: (x+8)(x-6)=0.
+  3. x=-8 or x=6.
+  4. Reject x=-8 because a length cannot be negative.
+  5. Dimensions are x=6 and x+2=8.
+- **Check:** 6×8=48.
+- **Final Answer:** The rectangle is 6 m by 8 m.
+- **Underlying reasoning:** Context decides whether every algebraic root is meaningful.
 
 #### Common Mistakes
 Keeping impossible negative time or length values; solving correctly but failing to interpret the answer; confusing x-intercepts with the vertex.
@@ -1192,24 +1289,31 @@ system of equations; substitution; elimination; intersection; solution set
 A system solution satisfies both equations simultaneously.
 
 #### Worked Example
-- **Problem:** Solve y=2x+1 and y=-x+7 graphically and algebraically.
-- **Given:** Identify the relevant mathematical objects, values, or relationships.
-- **Find:** The required classification, expression, graph feature, or numerical result.
-- **Strategy:** Choose the representation or rule that matches the structure of the problem.
-- **Calculation / Reasoning:** Show the critical algebra, arithmetic, or geometric relationship carefully.
-- **Check:** Ask whether the sign, unit, graph feature, or context makes sense.
-- **Final Answer:** State the result in a complete mathematical sentence.
-- **Why it works:** Tie the method back to the main concept of the lesson.
+- **Problem:** Solve y=2x+1 and y=-x+7.
+- **Given:** A linear system in slope-intercept form.
+- **Find:** The intersection.
+- **Strategy:** Set the right sides equal.
+- **Calculation / Reasoning:**
+  1. 2x+1=-x+7.
+  2. 3x=6, so x=2.
+  3. y=2(2)+1=5.
+- **Check:** In the second equation, y=-2+7=5 as well.
+- **Final Answer:** The solution is (2,5).
+- **Underlying reasoning:** At the intersection, both equations share the same x and y values.
 
 #### Test-Level Example
-- **Problem:** A theatre sells adult tickets for $18 and student tickets for $12. If 140 tickets produce $2 040, form and solve a linear system.
-- **Given:** Extract the mathematical information from the wording or representation.
-- **Find:** The unknown quantity, equation, or conclusion.
-- **Strategy:** Choose the most efficient method and justify it.
-- **Calculation / Reasoning:** Keep the work organized and label formulas or properties when useful.
-- **Check:** Verify by substitution, estimation, or contextual sense.
-- **Final Answer:** Write the answer clearly with correct units or interpretation.
-- **Why it works:** Explain the deeper idea or common transfer from simpler problems.
+- **Problem:** Adult tickets cost $18, student tickets cost $12, 140 tickets sold total $2040. Find the numbers of each.
+- **Given:** a+s=140 and 18a+12s=2040.
+- **Find:** a and s.
+- **Strategy:** Solve the system by substitution or elimination.
+- **Calculation / Reasoning:**
+  1. Divide 18a+12s=2040 by 6: 3a+2s=340.
+  2. From a+s=140, double to get 2a+2s=280.
+  3. Subtract: a=60.
+  4. Then s=80.
+- **Check:** 60+80=140 and 18(60)+12(80)=2040.
+- **Final Answer:** 60 adult tickets and 80 student tickets.
+- **Underlying reasoning:** Systems model situations with two linked constraints.
 
 #### Common Mistakes
 Combining equations incorrectly during elimination; stopping after finding one variable; not checking both equations.
@@ -1250,23 +1354,27 @@ distance = √[(x2-x1)^2+(y2-y1)^2]; midpoint=((x1+x2)/2,(y1+y2)/2); x^2+y^2=r^2
 
 #### Worked Example
 - **Problem:** Find the distance and midpoint between A(2,-1) and B(8,7).
-- **Given:** Identify the relevant mathematical objects, values, or relationships.
-- **Find:** The required classification, expression, graph feature, or numerical result.
-- **Strategy:** Choose the representation or rule that matches the structure of the problem.
-- **Calculation / Reasoning:** Show the critical algebra, arithmetic, or geometric relationship carefully.
-- **Check:** Ask whether the sign, unit, graph feature, or context makes sense.
-- **Final Answer:** State the result in a complete mathematical sentence.
-- **Why it works:** Tie the method back to the main concept of the lesson.
+- **Given:** Two coordinates.
+- **Find:** Distance AB and its midpoint.
+- **Strategy:** Use the distance and midpoint formulas.
+- **Calculation / Reasoning:**
+  1. Distance = √[(8-2)^2+(7-(-1))^2] = √(6^2+8^2)=√100=10.
+  2. Midpoint = ((2+8)/2,(-1+7)/2)=(5,3).
+- **Check:** The midpoint lies halfway in both x and y directions.
+- **Final Answer:** Distance 10; midpoint (5,3).
+- **Underlying reasoning:** Coordinate formulas extend familiar geometric ideas into the plane.
 
 #### Test-Level Example
-- **Problem:** Write the equation of the circle centred at the origin with radius 5, then decide whether (3,4) lies on it.
-- **Given:** Extract the mathematical information from the wording or representation.
-- **Find:** The unknown quantity, equation, or conclusion.
-- **Strategy:** Choose the most efficient method and justify it.
-- **Calculation / Reasoning:** Keep the work organized and label formulas or properties when useful.
-- **Check:** Verify by substitution, estimation, or contextual sense.
-- **Final Answer:** Write the answer clearly with correct units or interpretation.
-- **Why it works:** Explain the deeper idea or common transfer from simpler problems.
+- **Problem:** Write the equation of the circle centred at the origin with radius 5, then test (3,4).
+- **Given:** Centre (0,0), radius 5.
+- **Find:** The circle equation and whether the point lies on it.
+- **Strategy:** Use x^2+y^2=r^2.
+- **Calculation / Reasoning:**
+  1. Equation: x^2+y^2=25.
+  2. Test (3,4): 3^2+4^2=9+16=25.
+- **Check:** The equation matches the fixed distance from the origin.
+- **Final Answer:** x^2+y^2=25, and (3,4) lies on the circle.
+- **Underlying reasoning:** A circle is the set of all points a fixed distance from a centre.
 
 #### Common Mistakes
 Forgetting the square root in distance; averaging only one coordinate; mixing radius with diameter.
@@ -1304,24 +1412,33 @@ parallel; perpendicular; bisect; rhombus; rectangle; proof
 parallel lines have equal slopes; perpendicular slopes multiply to -1 when both are defined
 
 #### Worked Example
-- **Problem:** Show that the points A(0,0), B(4,2), C(2,6), and D(-2,4) form a parallelogram.
-- **Given:** Identify the relevant mathematical objects, values, or relationships.
-- **Find:** The required classification, expression, graph feature, or numerical result.
-- **Strategy:** Choose the representation or rule that matches the structure of the problem.
-- **Calculation / Reasoning:** Show the critical algebra, arithmetic, or geometric relationship carefully.
-- **Check:** Ask whether the sign, unit, graph feature, or context makes sense.
-- **Final Answer:** State the result in a complete mathematical sentence.
-- **Why it works:** Tie the method back to the main concept of the lesson.
+- **Problem:** Determine whether triangle A(0,0), B(6,0), C(3,4) is isosceles, right, both, or neither.
+- **Given:** Three coordinates.
+- **Find:** Side relationships.
+- **Strategy:** Compare side lengths.
+- **Calculation / Reasoning:**
+  1. AB=6.
+  2. AC=√[(3-0)^2+(4-0)^2]=5.
+  3. BC=√[(3-6)^2+(4-0)^2]=5.
+  4. Two equal sides mean the triangle is isosceles.
+  5. Since 5^2+5^2 ≠ 6^2, it is not right.
+- **Check:** Equal sides AC and BC confirm the classification.
+- **Final Answer:** The triangle is isosceles, not right.
+- **Underlying reasoning:** Coordinate geometry verifies figure properties numerically.
 
 #### Test-Level Example
-- **Problem:** Determine whether triangle A(0,0), B(6,0), C(3,4) is isosceles, right, both, or neither.
-- **Given:** Extract the mathematical information from the wording or representation.
-- **Find:** The unknown quantity, equation, or conclusion.
-- **Strategy:** Choose the most efficient method and justify it.
-- **Calculation / Reasoning:** Keep the work organized and label formulas or properties when useful.
-- **Check:** Verify by substitution, estimation, or contextual sense.
-- **Final Answer:** Write the answer clearly with correct units or interpretation.
-- **Why it works:** Explain the deeper idea or common transfer from simpler problems.
+- **Problem:** Show that A(0,0), B(4,2), C(2,6), and D(-2,4) form a parallelogram.
+- **Given:** Four vertices in order.
+- **Find:** A coordinate property proving a parallelogram.
+- **Strategy:** Compare slopes of opposite sides.
+- **Calculation / Reasoning:**
+  1. Slope AB=(2-0)/(4-0)=1/2.
+  2. Slope CD=(4-6)/(-2-2)=-2/-4=1/2.
+  3. Slope BC=(6-2)/(2-4)=4/-2=-2.
+  4. Slope AD=(4-0)/(-2-0)=4/-2=-2.
+- **Check:** Both pairs of opposite sides are parallel.
+- **Final Answer:** The quadrilateral is a parallelogram.
+- **Underlying reasoning:** A parallelogram can be verified by showing both pairs of opposite sides are parallel.
 
 #### Common Mistakes
 Using one property when two are needed; proving equal diagonals and assuming the shape must be a square; arithmetic slips in slope or distance.
@@ -1359,24 +1476,29 @@ similar; congruent; scale factor; corresponding sides; corresponding angles
 corresponding side ratios are equal in similar triangles
 
 #### Worked Example
-- **Problem:** Triangles with side lengths 3, 4, 5 and 6, 8, 10 are similar. State the scale factor and justify.
-- **Given:** Identify the relevant mathematical objects, values, or relationships.
-- **Find:** The required classification, expression, graph feature, or numerical result.
-- **Strategy:** Choose the representation or rule that matches the structure of the problem.
-- **Calculation / Reasoning:** Show the critical algebra, arithmetic, or geometric relationship carefully.
-- **Check:** Ask whether the sign, unit, graph feature, or context makes sense.
-- **Final Answer:** State the result in a complete mathematical sentence.
-- **Why it works:** Tie the method back to the main concept of the lesson.
+- **Problem:** Triangles with side lengths 3,4,5 and 6,8,10 are similar. State the scale factor.
+- **Given:** Two side-length sets.
+- **Find:** Whether the ratios match and the scale factor.
+- **Strategy:** Compare corresponding side ratios.
+- **Calculation / Reasoning:**
+  1. 6/3=2.
+  2. 8/4=2.
+  3. 10/5=2.
+- **Check:** All three ratios match.
+- **Final Answer:** The triangles are similar with scale factor 2 from the first to the second.
+- **Underlying reasoning:** Similar figures preserve angle measure and proportional side lengths.
 
 #### Test-Level Example
-- **Problem:** A shadow problem creates two similar triangles. Use the ratio of heights to shadow lengths to find an unknown height.
-- **Given:** Extract the mathematical information from the wording or representation.
-- **Find:** The unknown quantity, equation, or conclusion.
-- **Strategy:** Choose the most efficient method and justify it.
-- **Calculation / Reasoning:** Keep the work organized and label formulas or properties when useful.
-- **Check:** Verify by substitution, estimation, or contextual sense.
-- **Final Answer:** Write the answer clearly with correct units or interpretation.
-- **Why it works:** Explain the deeper idea or common transfer from simpler problems.
+- **Problem:** A 2 m object casts a 1.5 m shadow; a tree casts a 6 m shadow. Find the tree height.
+- **Given:** Same sun angle creates similar triangles.
+- **Find:** The unknown height h.
+- **Strategy:** Set up a proportion using corresponding sides.
+- **Calculation / Reasoning:**
+  1. h/6 = 2/1.5.
+  2. h = 6(2/1.5)=8.
+- **Check:** The tree shadow is 4 times the object’s shadow, so height should be 4 times 2 m.
+- **Final Answer:** The tree is 8 m tall.
+- **Underlying reasoning:** Similar triangles allow indirect measurement.
 
 #### Common Mistakes
 Matching sides in the wrong order; assuming equal area scale instead of linear scale; confusing congruent with similar.
@@ -1415,23 +1537,27 @@ sin θ=opp/hyp, cos θ=adj/hyp, tan θ=opp/adj
 
 #### Worked Example
 - **Problem:** In a right triangle, θ=35° and the hypotenuse is 12 cm. Find the side opposite θ.
-- **Given:** Identify the relevant mathematical objects, values, or relationships.
-- **Find:** The required classification, expression, graph feature, or numerical result.
-- **Strategy:** Choose the representation or rule that matches the structure of the problem.
-- **Calculation / Reasoning:** Show the critical algebra, arithmetic, or geometric relationship carefully.
-- **Check:** Ask whether the sign, unit, graph feature, or context makes sense.
-- **Final Answer:** State the result in a complete mathematical sentence.
-- **Why it works:** Tie the method back to the main concept of the lesson.
+- **Given:** Angle and hypotenuse.
+- **Find:** Opposite side.
+- **Strategy:** Use sine because sin θ = opposite/hypotenuse.
+- **Calculation / Reasoning:**
+  1. sin35° = opposite/12.
+  2. opposite = 12sin35° ≈ 6.88.
+- **Check:** The opposite side should be shorter than the hypotenuse, which it is.
+- **Final Answer:** About 6.9 cm.
+- **Underlying reasoning:** Primary trig ratios compare side lengths in similar right triangles.
 
 #### Test-Level Example
-- **Problem:** A ladder 5 m long rests against a wall and makes a 68° angle with the ground. Find the height reached on the wall.
-- **Given:** Extract the mathematical information from the wording or representation.
-- **Find:** The unknown quantity, equation, or conclusion.
-- **Strategy:** Choose the most efficient method and justify it.
-- **Calculation / Reasoning:** Keep the work organized and label formulas or properties when useful.
-- **Check:** Verify by substitution, estimation, or contextual sense.
-- **Final Answer:** Write the answer clearly with correct units or interpretation.
-- **Why it works:** Explain the deeper idea or common transfer from simpler problems.
+- **Problem:** A 5 m ladder makes a 68° angle with the ground. Find the height reached.
+- **Given:** Hypotenuse 5 and an angle with the ground.
+- **Find:** Vertical height.
+- **Strategy:** The height is opposite the given angle, so use sine.
+- **Calculation / Reasoning:**
+  1. sin68° = height/5.
+  2. height = 5sin68° ≈ 4.64.
+- **Check:** The height is slightly less than the ladder length, which is reasonable.
+- **Final Answer:** About 4.6 m.
+- **Underlying reasoning:** Applied trig problems begin with a correct sketch and side-labeling.
 
 #### Common Mistakes
 Choosing the wrong ratio; using radian mode accidentally; confusing angle of depression with the interior triangle angle.
@@ -1471,23 +1597,29 @@ a/sin A=b/sin B=c/sin C; c^2=a^2+b^2-2ab cos C
 
 #### Worked Example
 - **Problem:** In △ABC, a=8, A=40°, b=11. Find B using the sine law.
-- **Given:** Identify the relevant mathematical objects, values, or relationships.
-- **Find:** The required classification, expression, graph feature, or numerical result.
-- **Strategy:** Choose the representation or rule that matches the structure of the problem.
-- **Calculation / Reasoning:** Show the critical algebra, arithmetic, or geometric relationship carefully.
-- **Check:** Ask whether the sign, unit, graph feature, or context makes sense.
-- **Final Answer:** State the result in a complete mathematical sentence.
-- **Why it works:** Tie the method back to the main concept of the lesson.
+- **Given:** A known angle-side opposite pair.
+- **Find:** Angle B.
+- **Strategy:** Use a/sinA = b/sinB.
+- **Calculation / Reasoning:**
+  1. 8/sin40° = 11/sinB.
+  2. sinB = 11sin40°/8 ≈ 0.884.
+  3. B ≈ sin^-1(0.884) ≈ 62.1°.
+- **Check:** The angle is acute and fits the side lengths given.
+- **Final Answer:** B ≈ 62.1°.
+- **Underlying reasoning:** The sine law connects sides to their opposite angles.
 
 #### Test-Level Example
 - **Problem:** In △ABC, a=7, b=9, C=52°. Find c using the cosine law.
-- **Given:** Extract the mathematical information from the wording or representation.
-- **Find:** The unknown quantity, equation, or conclusion.
-- **Strategy:** Choose the most efficient method and justify it.
-- **Calculation / Reasoning:** Keep the work organized and label formulas or properties when useful.
-- **Check:** Verify by substitution, estimation, or contextual sense.
-- **Final Answer:** Write the answer clearly with correct units or interpretation.
-- **Why it works:** Explain the deeper idea or common transfer from simpler problems.
+- **Given:** Two sides and the included angle.
+- **Find:** The third side.
+- **Strategy:** Use c^2=a^2+b^2-2ab cosC.
+- **Calculation / Reasoning:**
+  1. c^2=7^2+9^2-2(7)(9)cos52°.
+  2. c^2=49+81-126cos52° ≈ 130-77.57 ≈ 52.43.
+  3. c≈√52.43 ≈ 7.24.
+- **Check:** The side length is plausible between |9-7| and 9+7.
+- **Final Answer:** c ≈ 7.2.
+- **Underlying reasoning:** The cosine law generalizes the Pythagorean theorem to non-right triangles.
 
 #### Common Mistakes
 Using sine law without an opposite angle-side pair; ignoring the possibility of two sine-law solutions; failing to round only at the end.
@@ -2404,39 +2536,39 @@ Use this table after every lesson, mixed set, and mock test. The goal is not jus
 | 9 | B Number | Explain how positive and negative signs affect ratios, rates, fractions, and decimals in context. | B3.3 | Lesson 3 | Yes | Lesson practice | G9 Strand B Mixed Practice | Q5-Q7 |
 | 9 | B Number | Solve problems involving operations with positive and negative fractions and mixed numbers. | B3.4 | Lesson 3 | Yes | Lesson practice | G9 Strand B Mixed Practice | Q5-Q7 |
 | 9 | B Number | Pose and solve problems involving ratios, rates, percent, and proportion in varied contexts. | B3.5 | Lesson 3 | Yes | Lesson practice | G9 Strand B Mixed Practice | Q5-Q7 |
-| 9 | C Algebra | Research an algebraic concept in context and explain why symbolic generalization is useful. | C1.1 | Lesson 4 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q10 |
-| 9 | C Algebra | Create algebraic expressions to generalize relationships and solve problems. | C1.2 | Lesson 4 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q10 |
-| 9 | C Algebra | Compare algebraic expressions and determine when they are equivalent. | C1.3 | Lesson 4 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q10 |
-| 9 | C Algebra | Simplify algebraic expressions using properties of operations. | C1.4 | Lesson 4 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q10 |
-| 9 | C Algebra | Create and solve equations, and verify whether given values are solutions. | C1.5 | Lesson 4 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q10 |
+| 9 | C Algebra | Research an algebraic concept in context and explain why symbolic generalization is useful. | C1.1 | Lesson 4 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q16 partial |
+| 9 | C Algebra | Create algebraic expressions to generalize relationships and solve problems. | C1.2 | Lesson 4 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q16 partial |
+| 9 | C Algebra | Compare algebraic expressions and determine when they are equivalent. | C1.3 | Lesson 4 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q16 partial |
+| 9 | C Algebra | Simplify algebraic expressions using properties of operations. | C1.4 | Lesson 4 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q16 partial |
+| 9 | C Algebra | Create and solve equations, and verify whether given values are solutions. | C1.5 | Lesson 4 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q16 partial |
 | 9 | C Algebra | Use coding to represent variables, parameters, equations, and inequalities. | C2.1 | Lesson 5 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q11 |
 | 9 | C Algebra | Create code by decomposing a mathematical situation into ordered steps. | C2.2 | Lesson 5 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q11 |
 | 9 | C Algebra | Read and modify code to change mathematical constraints, parameters, and outcomes. | C2.3 | Lesson 5 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q11 |
-| 9 | C Algebra | Compare linear and non-linear relations by graph shape and rate of change. | C3.1 | Lesson 6 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q12-Q14 |
-| 9 | C Algebra | Represent linear relations in words, tables, graphs, and equations, and connect rate and initial value. | C3.2 | Lesson 6 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q12-Q14 |
-| 9 | C Algebra | Compare two linear relations and interpret their intersection in context. | C3.3 | Lesson 6 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q12-Q14 |
-| 9 | C Algebra | Compare characteristics of relations from graphs, tables, equations, and descriptions. | C4.1 | Lesson 7 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q15-Q16 |
-| 9 | C Algebra | Graph equations and inequalities such as x=k, y=k, x+y=k, x-y=k, ax+by=k, and xy=k. | C4.2 | Lesson 7 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q15-Q16 |
-| 9 | C Algebra | Translate, reflect, and rotate lines such as y=ax and compare the results. | C4.3 | Lesson 7 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q15-Q16 |
-| 9 | C Algebra | Determine equations of lines from graphs, tables, and concrete models using slope and intercept ideas. | C4.4 | Lesson 7 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q15-Q16 |
-| 9 | D Data | Examine implications of collecting, storing, and using large data sets. | D1.1 | Lesson 8 | Yes | Lesson practice | G9 Strand D Mixed Practice | Q17-Q18 |
-| 9 | D Data | Represent and analyse one-variable data, including quartiles and box plots. | D1.2 | Lesson 8 | Yes | Lesson practice | G9 Strand D Mixed Practice | Q17-Q18 |
-| 9 | D Data | Represent and analyse two-variable data using scatter plots, regression models, and correlation. | D1.3 | Lesson 8 | Yes | Lesson practice | G9 Strand D Mixed Practice | Q17-Q18 |
-| 9 | D Data | Describe the value and purpose of mathematical modelling in real decisions. | D2.1 | Lesson 9 | Yes | Lesson practice | G9 Strand D Mixed Practice | Q19 |
-| 9 | D Data | Identify a question, the variables involved, and the data needed for a model. | D2.2 | Lesson 9 | Yes | Lesson practice | G9 Strand D Mixed Practice | Q19 |
-| 9 | D Data | Plan and carry out data collection, including assumptions and variable choices. | D2.3 | Lesson 9 | Yes | Lesson practice | G9 Strand D Mixed Practice | Q19 |
-| 9 | D Data | Choose a display or analysis method that supports a model. | D2.4 | Lesson 9 | Yes | Lesson practice | G9 Strand D Mixed Practice | Q19 |
-| 9 | D Data | Report model fit, limitations, and predictions in context. | D2.5 | Lesson 9 | Yes | Lesson practice | G9 Strand D Mixed Practice | Q19 |
-| 9 | E Geometry and Measurement | Research a geometric concept or measurement system and explain its current relevance. | E1.1 | Lesson 10 | Yes | Lesson practice | G9 Strand E Mixed Practice | Q20-Q23 |
-| 9 | E Geometry and Measurement | Create and analyse designs involving geometric relationships and circle and triangle properties. | E1.2 | Lesson 10 | Yes | Lesson practice | G9 Strand E Mixed Practice | Q20-Q23 |
-| 9 | E Geometry and Measurement | Solve problems involving measurement conversions within and between systems. | E1.3 | Lesson 10 | Yes | Lesson practice | G9 Strand E Mixed Practice | Q20-Q23 |
-| 9 | E Geometry and Measurement | Analyse how changing dimensions affects perimeter, area, surface area, and volume. | E1.4 | Lesson 10 | Yes | Lesson practice | G9 Strand E Mixed Practice | Q20-Q23 |
-| 9 | E Geometry and Measurement | Solve problems involving the side lengths of right triangles. | E1.5 | Lesson 10 | Yes | Lesson practice | G9 Strand E Mixed Practice | Q20-Q23 |
-| 9 | E Geometry and Measurement | Use relationships among prisms, pyramids, cylinders, and cones to solve volume problems. | E1.6 | Lesson 10 | Yes | Lesson practice | G9 Strand E Mixed Practice | Q20-Q23 |
-| 9 | F Financial Literacy | Use a past or current financial situation to inform a decision. | F1.1 | Lesson 11 | Yes | Lesson practice | G9 Strand F Mixed Practice | Q24-Q25 |
-| 9 | F Financial Literacy | Interpret appreciation and depreciation situations and their graphs. | F1.2 | Lesson 11 | Yes | Lesson practice | G9 Strand F Mixed Practice | Q24-Q25 |
-| 9 | F Financial Literacy | Compare how interest rate, time, interest method, and down payment affect total cost. | F1.3 | Lesson 11 | Yes | Lesson practice | G9 Strand F Mixed Practice | Q24-Q25 |
-| 9 | F Financial Literacy | Modify a budget and justify changes. | F1.4 | Lesson 11 | Yes | Lesson practice | G9 Strand F Mixed Practice | Q24-Q25 |
+| 9 | C Algebra | Compare linear and non-linear relations by graph shape and rate of change. | C3.1 | Lesson 6 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q16 partial |
+| 9 | C Algebra | Represent linear relations in words, tables, graphs, and equations, and connect rate and initial value. | C3.2 | Lesson 6 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q16 partial |
+| 9 | C Algebra | Compare two linear relations and interpret their intersection in context. | C3.3 | Lesson 6 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q16 partial |
+| 9 | C Algebra | Compare characteristics of relations from graphs, tables, equations, and descriptions. | C4.1 | Lesson 7 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q16 partial |
+| 9 | C Algebra | Graph equations and inequalities such as x=k, y=k, x+y=k, x-y=k, ax+by=k, and xy=k. | C4.2 | Lesson 7 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q16 partial |
+| 9 | C Algebra | Translate, reflect, and rotate lines such as y=ax and compare the results. | C4.3 | Lesson 7 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q16 partial |
+| 9 | C Algebra | Determine equations of lines from graphs, tables, and concrete models using slope and intercept ideas. | C4.4 | Lesson 7 | Yes | Lesson practice | G9 Strand C Mixed Practice | Q8-Q16 partial |
+| 9 | D Data | Examine implications of collecting, storing, and using large data sets. | D1.1 | Lesson 8 | Yes | Lesson practice | G9 Strand D Mixed Practice | Not directly isolated in mock |
+| 9 | D Data | Represent and analyse one-variable data, including quartiles and box plots. | D1.2 | Lesson 8 | Yes | Lesson practice | G9 Strand D Mixed Practice | Q17 |
+| 9 | D Data | Represent and analyse two-variable data using scatter plots, regression models, and correlation. | D1.3 | Lesson 8 | Yes | Lesson practice | G9 Strand D Mixed Practice | Q18 |
+| 9 | D Data | Describe the value and purpose of mathematical modelling in real decisions. | D2.1 | Lesson 9 | Yes | Lesson practice | G9 Strand D Mixed Practice | Q19 partial |
+| 9 | D Data | Identify a question, the variables involved, and the data needed for a model. | D2.2 | Lesson 9 | Yes | Lesson practice | G9 Strand D Mixed Practice | Q19 partial |
+| 9 | D Data | Plan and carry out data collection, including assumptions and variable choices. | D2.3 | Lesson 9 | Yes | Lesson practice | G9 Strand D Mixed Practice | Q19 partial |
+| 9 | D Data | Choose a display or analysis method that supports a model. | D2.4 | Lesson 9 | Yes | Lesson practice | G9 Strand D Mixed Practice | Q19 partial |
+| 9 | D Data | Report model fit, limitations, and predictions in context. | D2.5 | Lesson 9 | Yes | Lesson practice | G9 Strand D Mixed Practice | Q19 partial |
+| 9 | E Geometry and Measurement | Research a geometric concept or measurement system and explain its current relevance. | E1.1 | Lesson 10 | Yes | Lesson practice | G9 Strand E Mixed Practice | Not directly isolated in mock |
+| 9 | E Geometry and Measurement | Create and analyse designs involving geometric relationships and circle and triangle properties. | E1.2 | Lesson 10 | Yes | Lesson practice | G9 Strand E Mixed Practice | Not directly isolated in mock |
+| 9 | E Geometry and Measurement | Solve problems involving measurement conversions within and between systems. | E1.3 | Lesson 10 | Yes | Lesson practice | G9 Strand E Mixed Practice | Q20 |
+| 9 | E Geometry and Measurement | Analyse how changing dimensions affects perimeter, area, surface area, and volume. | E1.4 | Lesson 10 | Yes | Lesson practice | G9 Strand E Mixed Practice | Q21 |
+| 9 | E Geometry and Measurement | Solve problems involving the side lengths of right triangles. | E1.5 | Lesson 10 | Yes | Lesson practice | G9 Strand E Mixed Practice | Q22 |
+| 9 | E Geometry and Measurement | Use relationships among prisms, pyramids, cylinders, and cones to solve volume problems. | E1.6 | Lesson 10 | Yes | Lesson practice | G9 Strand E Mixed Practice | Q23 |
+| 9 | F Financial Literacy | Use a past or current financial situation to inform a decision. | F1.1 | Lesson 11 | Yes | Lesson practice | G9 Strand F Mixed Practice | Q24-Q25 partial |
+| 9 | F Financial Literacy | Interpret appreciation and depreciation situations and their graphs. | F1.2 | Lesson 11 | Yes | Lesson practice | G9 Strand F Mixed Practice | Q25 |
+| 9 | F Financial Literacy | Compare how interest rate, time, interest method, and down payment affect total cost. | F1.3 | Lesson 11 | Yes | Lesson practice | G9 Strand F Mixed Practice | Q24 |
+| 9 | F Financial Literacy | Modify a budget and justify changes. | F1.4 | Lesson 11 | Yes | Lesson practice | G9 Strand F Mixed Practice | Not directly isolated in mock |
 | 10 | A Quadratic Relations | Collect or analyze data that can be modelled quadratically and graph a suitable curve of best fit. | A1.1 | Lesson 12 | Yes | Lesson practice | G10 Strand A Mixed Practice | Q26-Q28 |
 | 10 | A Quadratic Relations | Determine that y=ax^2+bx+c graphs as a parabola and that its table has constant second differences. | A1.2 | Lesson 12 | Yes | Lesson practice | G10 Strand A Mixed Practice | Q26-Q28 |
 | 10 | A Quadratic Relations | Identify the axis of symmetry, vertex, intercepts, zeros, and maximum or minimum value of a parabola. | A1.3 | Lesson 12 | Yes | Lesson practice | G10 Strand A Mixed Practice | Q26-Q28 |
