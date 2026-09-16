@@ -7,7 +7,7 @@
 
 > **Standalone file version:** [Ontario Intermediate Mathematics ABQ Study Package](./Ontario-Intermediate-Math-ABQ-Study-Package.md)
 >
-> **LaTeX textbook edition:** [Ontario Intermediate Mathematics ABQ Textbook](./Ontario-Intermediate-Math-ABQ-Textbook.tex)  
+> **LaTeX textbook source:** `Ontario-Intermediate-Math-ABQ-Textbook.tex`  
 > Compile with `pdflatex Ontario-Intermediate-Math-ABQ-Textbook.tex` (run twice) or `latexmk -pdf Ontario-Intermediate-Math-ABQ-Textbook.tex`.
 
 ---
