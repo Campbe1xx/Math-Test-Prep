@@ -1,0 +1,791 @@
+\documentclass[11pt,oneside]{book}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{microtype}
+\usepackage{booktabs,longtable,tabularx,array}
+\usepackage{enumitem}
+\usepackage[most]{tcolorbox}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{titlesec}
+
+\definecolor{Primary}{HTML}{1F3A5F}
+\definecolor{Accent}{HTML}{2D6A8D}
+\definecolor{SoftBlue}{HTML}{EEF5FB}
+\definecolor{SoftGold}{HTML}{FFF8E1}
+\definecolor{SoftGreen}{HTML}{EDF7ED}
+\definecolor{SoftGray}{HTML}{F4F4F4}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=Primary,
+  urlcolor=Accent,
+  pdftitle={Ontario Intermediate Mathematics ABQ Study Textbook},
+  pdfauthor={Campbe1xx/Math-Test-Prep Repository},
+  pdfsubject={Ontario Grade 9/10 Mathematics ABQ Study Resource}
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\leftmark}
+\fancyhead[R]{Ontario Intermediate Mathematics ABQ Study Textbook}
+\fancyfoot[C]{\thepage}
+\setlength{\headheight}{14pt}
+
+\titleformat{\chapter}[display]
+  {\normalfont\bfseries\color{Primary}}
+  {\filleft\Huge\chaptername\ \thechapter}
+  {1ex}
+  {\filright\Huge}
+
+\setlist[itemize]{topsep=0.4em,itemsep=0.3em}
+\setlist[enumerate]{topsep=0.4em,itemsep=0.35em}
+
+\newtcolorbox{summarybox}{
+  breakable,
+  colback=SoftBlue,
+  colframe=Primary,
+  title=Chapter Summary,
+  fonttitle=\bfseries
+}
+
+\newtcolorbox{notebox}[1]{
+  breakable,
+  colback=SoftGold,
+  colframe=Accent,
+  title=#1,
+  fonttitle=\bfseries
+}
+
+\newtcolorbox{exercisebox}[1]{
+  breakable,
+  colback=SoftGray,
+  colframe=black!60,
+  title=#1,
+  fonttitle=\bfseries
+}
+
+\tcbset{
+  definitionstyle/.style={breakable,colback=SoftBlue,colframe=Accent,fonttitle=\bfseries},
+  examplestyle/.style={breakable,colback=white,colframe=Primary,fonttitle=\bfseries},
+  theoremstyle/.style={breakable,colback=SoftGreen,colframe=green!45!black,fonttitle=\bfseries}
+}
+
+\newtcbtheorem[number within=chapter]{definition}{Definition}{definitionstyle}{def}
+\newtcbtheorem[number within=chapter]{example}{Worked Example}{examplestyle}{ex}
+\newtcbtheorem[number within=chapter]{theorembox}{Key Idea}{theoremstyle}{th}
+
+\newcommand{\coursecode}[1]{\textbf{#1}}
+\newcommand{\topicline}[1]{\medskip\noindent\textbf{Focus:} #1\par\medskip}
+\newcommand{\answerline}{\par\smallskip\noindent\textit{Answer: }}
+
+\begin{document}
+
+\frontmatter
+
+\begin{titlepage}
+\centering
+{\Huge\bfseries Ontario Intermediate Mathematics ABQ Study Textbook\par}
+\vspace{1.5cm}
+{\Large A textbook-style study package based on Ontario Grade 9 and Grade 10 mathematics\par}
+\vspace{1cm}
+{\large for teacher-candidates and learners preparing for the Intermediate Mathematics ABQ\par}
+\vfill
+\begin{tcolorbox}[width=0.9\textwidth,colback=SoftGold,colframe=Accent,title=Important Disclaimer,fonttitle=\bfseries]
+This document is a \textbf{curriculum-aligned study package}. It is \textbf{not an official Trent University practice test}, and it does not claim Trent-specific weighting, timing, cut-scores, or question distribution. It reorganizes the repository's existing Ontario Intermediate Mathematics ABQ study content into a polished textbook-style format for review and practice.
+\end{tcolorbox}
+\vfill
+\begin{tabular}{rl}
+Source basis: & \texttt{Ontario-Intermediate-Math-ABQ-Study-Package.md} \\
+Curriculum scope: & Ontario Grade 9 Mathematics \coursecode{MTH1W} strands B--F \\
+& Ontario Grade 10 Academic Mathematics \coursecode{MPM2D} (2005), strands A--C
+\end{tabular}
+\vfill
+{\large Campbe1xx/Math-Test-Prep Repository\par}
+{\large \today\par}
+\end{titlepage}
+
+\chapter*{How to Use This Textbook}
+\addcontentsline{toc}{chapter}{How to Use This Textbook}
+This study text is designed for two overlapping audiences:
+\begin{itemize}
+  \item Grade 9 or Grade 10 Ontario mathematics learners who want a concise reference and practice resource.
+  \item Teacher-candidates preparing for the Intermediate Mathematics ABQ who need a coherent review of the Ontario curriculum foundations named in the repository study package.
+\end{itemize}
+Use each chapter in the same pattern:
+\begin{enumerate}
+  \item Read the opening ideas and definitions.
+  \item Study the worked examples carefully.
+  \item Complete the chapter exercises without looking at the answers.
+  \item Use the appendix answer key to check fluency, not just final answers.
+  \item Revisit the curriculum overview if you need to connect a skill to Ontario expectations.
+\end{enumerate}
+
+\tableofcontents
+
+\mainmatter
+
+\chapter{Ontario Intermediate Mathematics ABQ Overview}
+\section{Purpose and Scope}
+The original repository package prepares readers for an entry test aligned to \textbf{Ontario Grades 9 and 10 mathematics}. This textbook retains that same organizing principle. The emphasis is not on memorizing isolated tricks, but on recovering the habits of mind expected in intermediate mathematics:
+\begin{itemize}
+  \item numerical fluency,
+  \item algebraic reasoning,
+  \item representation of relations,
+  \item data-informed decision-making,
+  \item geometric and spatial reasoning,
+  \item financial literacy,
+  \item quadratic thinking, and
+  \item trigonometric modelling.
+\end{itemize}
+
+\section{Study Plans from the Existing Package}
+\subsection*{Two-day compressed review}
+\begin{itemize}
+  \item Day 1: fluency repair, diagnostic review, Grade 9 number and algebra, and the foundations of quadratics.
+  \item Day 2: data, financial mathematics, analytic geometry, trigonometry, and a cumulative mock review.
+\end{itemize}
+
+\subsection*{Three-day review}
+\begin{itemize}
+  \item Day 1: number sense, exponents, equations, and linear relations.
+  \item Day 2: data, geometry, measurement, financial mathematics, and quadratic relations.
+  \item Day 3: analytic geometry, trigonometry, mixed practice, and final readiness checking.
+\end{itemize}
+
+\section{Curriculum Alignment Overview}
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.17\textwidth} >{\raggedright\arraybackslash}p{0.22\textwidth} >{\raggedright\arraybackslash}p{0.5\textwidth}}
+\toprule
+Grade & Strand & Topics emphasized in this textbook \\
+\midrule
+\endhead
+Grade 9 & Number & number sets, density, exponent laws, scientific notation, rational number operations, rates, ratios, percents \\
+Grade 9 & Algebra & simplifying expressions, solving equations, coding representations, linear and non-linear relations, graph features \\
+Grade 9 & Data & one-variable and two-variable data, modelling, scatter plots, bias, probability foundations \\
+Grade 9 & Geometry and Measurement & measurement conversions, area, volume, right triangles, scale, spatial reasoning \\
+Grade 9 & Financial Literacy & appreciation, depreciation, budgets, simple interest, quantitative comparison \\
+Grade 10 Academic & Quadratic Relations & parabolas, transformations, factoring, completing the square, solving quadratic equations \\
+Grade 10 Academic & Analytic Geometry & systems of linear equations, midpoint, distance, slope, circle equations, coordinate proofs \\
+Grade 10 Academic & Trigonometry & similar triangles, right-triangle trigonometry, sine law, cosine law \\
+\bottomrule
+\end{longtable}
+
+\chapter{Number Sense and Exponents}
+\topicline{Number sets, rational numbers, exponent laws, scientific notation, ratio and percent reasoning}
+
+\section{Number Systems and Density}
+\begin{definition}{Number system}{numbersystems}
+A \emph{number system} is a set of numbers with shared properties. Common sets include natural numbers, integers, rational numbers, and real numbers. Rational numbers are \emph{dense}: between any two rational numbers, there is always another rational number.
+\end{definition}
+
+\begin{theorembox}{Useful perspective}{density}
+In Grade 9 mathematics, students move from seeing numbers as counting objects to seeing them as members of connected systems. This shift supports later work with algebra, slope, and real-valued measurement.
+\end{theorembox}
+
+\section{Exponent Laws}
+For nonzero base $a$, the core exponent laws are:
+\[
+ a^m\cdot a^n=a^{m+n}, \qquad \frac{a^m}{a^n}=a^{m-n}, \qquad (a^m)^n=a^{mn}, \qquad a^0=1.
+\]
+These laws explain both integer exponents and scientific notation.
+
+\begin{example}{Simplifying an expression}{exp-laws}
+Simplify $\dfrac{2^5\cdot 2^{-3}}{2^2}$.
+\tcblower
+Combine exponents in the numerator first:
+\[
+2^5\cdot 2^{-3}=2^{5+(-3)}=2^2.
+\]
+Then divide:
+\[
+\frac{2^2}{2^2}=2^{2-2}=2^0=1.
+\]
+\answerline $1$
+\end{example}
+
+\section{Scientific Notation}
+Scientific notation expresses a number in the form $a\times 10^n$, where $1\le a<10$ and $n$ is an integer. It is useful when comparing very large or very small quantities.
+
+\begin{example}{Converting to scientific notation}{sci-notation}
+Write $0.0062$ in scientific notation.
+\tcblower
+Move the decimal point three places to the right to obtain $6.2$. Because the original number is less than $1$, the exponent is negative:
+\[
+0.0062=6.2\times 10^{-3}.
+\]
+\answerline $6.2\times 10^{-3}$
+\end{example}
+
+\begin{exercisebox}{Exercises: Number sense and exponents}
+\begin{enumerate}
+  \item Classify each as natural, integer, rational, or irrational: $-3$, $\frac{7}{8}$, $\sqrt{2}$.
+  \item Simplify $3^4\cdot 3^{-2}$.
+  \item Simplify $\dfrac{x^5}{x^2}$ for $x\neq 0$.
+  \item Write $54{,}000$ in scientific notation.
+  \item A quantity grows from $80$ to $92$. Find the percent increase.
+  \item Five pens cost \$11.25. What is the unit rate? What will eight pens cost at the same rate?
+\end{enumerate}
+\end{exercisebox}
+
+\begin{summarybox}
+Strong number sense shows up later in every chapter. If signs, fractions, and exponents feel shaky, pause here and rebuild that fluency before moving on.
+\end{summarybox}
+
+\chapter{Algebraic Thinking and Linear Relations}
+\topicline{Expressions, equations, equivalent forms, graphs, slope, and multiple representations}
+
+\section{Expressions and Equivalence}
+Equivalent expressions name the same quantity in different ways. For example,
+\[
+-3(2x-5)+4x=-6x+15+4x=-2x+15.
+\]
+Equivalent forms matter because one form may be easier to solve, graph, or interpret than another.
+
+\begin{definition}{Linear relation}{linearrelation}
+A \emph{linear relation} has a constant first difference and a graph that forms a straight line. In the equation $y=mx+b$, the constant $m$ is the slope and $b$ is the $y$-intercept.
+\end{definition}
+
+\section{Solving Equations}
+To solve a linear equation, isolate the variable while preserving equality by doing the same operation to both sides.
+
+\begin{example}{Solving a multi-step equation}{lineq}
+Solve $3(2x+1)=21$.
+\tcblower
+Distribute first:
+\[
+6x+3=21.
+\]
+Subtract $3$ from both sides:
+\[
+6x=18.
+\]
+Divide by $6$:
+\[
+x=3.
+\]
+\answerline $x=3$
+\end{example}
+
+\section{Slope and Intercepts}
+For points $(x_1,y_1)$ and $(x_2,y_2)$ with $x_1\neq x_2$, the slope is
+\[
+ m=\frac{y_2-y_1}{x_2-x_1}.
+\]
+The sign of the slope tells whether the graph rises or falls from left to right.
+
+\begin{example}{Finding the slope of a line}{slopeexample}
+Find the slope through $(2,5)$ and $(7,-5)$.
+\tcblower
+\[
+ m=\frac{-5-5}{7-2}=\frac{-10}{5}=-2.
+\]
+\answerline The slope is $-2$.
+\end{example}
+
+\section{Linear and Non-linear Patterns}
+A table with constant first differences suggests a linear relation. Constant second differences suggest a quadratic relation, which becomes central in Grade 10.
+
+\begin{exercisebox}{Exercises: Algebra and relations}
+\begin{enumerate}
+  \item Simplify $5x-2(3x-4)$.
+  \item Solve $4x-7=17$.
+  \item Solve $\frac{2}{3}x-5=9$.
+  \item Find the slope of the line through $(1,4)$ and $(5,12)$.
+  \item Determine the equation of the line with slope $-2$ and $y$-intercept $1$.
+  \item Explain why the points $(1,2)$, $(3,6)$, and $(5,10)$ lie on a linear relation.
+\end{enumerate}
+\end{exercisebox}
+
+\begin{summarybox}
+Algebra is the bridge between arithmetic and modelling. By Grade 10, every quadratic, trigonometric, or financial context still depends on careful symbolic manipulation.
+\end{summarybox}
+
+\chapter{Data, Probability, and Mathematical Modelling}
+\topicline{One-variable data, scatter plots, modelling decisions, theoretical and experimental probability}
+
+\section{Reading and Representing Data}
+Good data work requires more than calculation. You must decide what to measure, how to display it, and what limitations remain.
+
+\begin{definition}{Theoretical and experimental probability}{probability}
+\emph{Theoretical probability} is based on equally likely outcomes in a model. \emph{Experimental probability} is based on observed results from trials.
+\end{definition}
+
+\section{Measures of Centre}
+Mean describes the arithmetic average, while median marks the middle value in an ordered list. Each gives a different view of the data.
+
+\begin{example}{Comparing mean and median}{meanmedian}
+For the data set $3,5,7,7,9$, find the mean and median.
+\tcblower
+The mean is
+\[
+\frac{3+5+7+7+9}{5}=\frac{31}{5}=6.2.
+\]
+The middle value in the ordered list is $7$, so the median is $7$.
+\answerline Mean $=6.2$, median $=7$
+\end{example}
+
+\section{Scatter Plots and Modelling}
+A scatter plot helps us describe association between two variables. A good mathematical model should fit the data reasonably well and respect the context that produced the data.
+
+\section{Probability Foundations}
+If a bag contains $5$ red cards and $7$ blue cards, then the probability of drawing a red card is
+\[
+\frac{5}{12}.
+\]
+If an experiment yields $18$ heads in $40$ flips, the experimental probability of heads is
+\[
+\frac{18}{40}=0.45.
+\]
+
+\begin{exercisebox}{Exercises: Data and probability}
+\begin{enumerate}
+  \item Identify one likely source of bias in an online poll about school attendance habits.
+  \item Compute the mean and median of $4,4,6,10,11$.
+  \item A fair six-sided die is rolled once. What is the probability of an odd result?
+  \item A spinner lands on blue $9$ times out of $20$ trials. State the experimental probability of blue.
+  \item Explain why a model with excellent numerical fit may still be weak in context.
+\end{enumerate}
+\end{exercisebox}
+
+\begin{summarybox}
+Ontario intermediate mathematics expects students to interpret data critically, not just compute with it. Always ask: what was measured, how was it measured, and what decision follows from the result?
+\end{summarybox}
+
+\chapter{Geometry, Measurement, and Coordinate Geometry}
+\topicline{Measurement conversion, area and volume, Pythagorean relationships, midpoint, distance, slope, and geometric verification}
+
+\section{Measurement and Spatial Reasoning}
+Intermediate mathematics connects formulas to meaning. Units, diagrams, and structure matter as much as arithmetic.
+
+\begin{theorembox}{Pythagorean theorem}{pythagorean}
+In a right triangle with legs $a$ and $b$ and hypotenuse $c$,
+\[
+a^2+b^2=c^2.
+\]
+\end{theorembox}
+
+\begin{example}{A right-triangle calculation}{righttriangle}
+A right triangle has hypotenuse $13$ and one leg $5$. Find the other leg.
+\tcblower
+Use the Pythagorean theorem:
+\[
+5^2+b^2=13^2.
+\]
+So
+\[
+25+b^2=169, \qquad b^2=144, \qquad b=12.
+\]
+\answerline The missing leg is $12$.
+\end{example}
+
+\section{Coordinate Tools}
+In Grade 10 analytic geometry, three formulas organize much of the work:
+\[
+\begin{aligned}
+\text{slope } &m=\frac{y_2-y_1}{x_2-x_1},\\
+\text{midpoint } &\left(\frac{x_1+x_2}{2},\frac{y_1+y_2}{2}\right),\\
+\text{distance } &d=\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}.
+\end{aligned}
+\]
+
+\begin{example}{Midpoint and distance}{midpointdistance}
+For $A(-4,6)$ and $B(8,-2)$, find the midpoint.
+\tcblower
+\[
+\left(\frac{-4+8}{2},\frac{6+(-2)}{2}\right)=\left(\frac{4}{2},\frac{4}{2}\right)=(2,2).
+\]
+\answerline Midpoint $(2,2)$
+\end{example}
+
+\section{Geometric Verification in the Coordinate Plane}
+Coordinate geometry allows us to justify that sides are parallel, perpendicular, equal in length, or bisected. This is a natural Grade 9 to Grade 10 transition: visual geometry becomes algebraic proof.
+
+\begin{exercisebox}{Exercises: Geometry and coordinate geometry}
+\begin{enumerate}
+  \item Convert $2.4$ m to cm.
+  \item Find the area of a triangle with base $10$ cm and height $7$ cm.
+  \item Find the surface area formula you would use for a cylinder of radius $3$ and height $10$.
+  \item Find the midpoint of $(2,1)$ and $(8,10)$.
+  \item Decide whether slopes $3$ and $-\frac{1}{3}$ correspond to perpendicular lines.
+  \item State one coordinate fact that would help prove a quadrilateral is a rectangle.
+\end{enumerate}
+\end{exercisebox}
+
+\begin{summarybox}
+Unit discipline and diagram discipline matter. Many errors that look algebraic are really geometric misunderstandings caused by poor sketches or ignored units.
+\end{summarybox}
+
+\chapter{Financial Mathematics}
+\topicline{Percent change, appreciation, depreciation, simple interest, budgets, and comparison of options}
+
+\section{Percent Change in Context}
+Financial literacy in Ontario mathematics is not separate from algebra. Growth, decay, and comparison all rely on proportional reasoning.
+
+\begin{definition}{Appreciation and depreciation}{appdep}
+\emph{Appreciation} is an increase in value over time. \emph{Depreciation} is a decrease in value over time. In many Grade 9 contexts, a one-step change can be modelled as
+\[
+\text{new value}=\text{original value}\times(1\pm r),
+\]
+where $r$ is the rate written as a decimal.
+\end{definition}
+
+\begin{example}{A depreciation calculation}{depreciationex}
+A laptop worth \$1200 depreciates by $12\%$ in one year. Find its value after one year.
+\tcblower
+A decrease of $12\%$ means multiplying by $0.88$:
+\[
+1200(0.88)=1056.
+\]
+\answerline The new value is \$1056.
+\end{example}
+
+\section{Simple Interest}
+Simple interest is often modelled by
+\[
+I=Prt,
+\]
+where $P$ is principal, $r$ is the annual rate, and $t$ is the time in years.
+
+\section{Budgets and Choice}
+When income changes, a budget must be revised logically. Mathematics supports the comparison, but the decision still requires clear priorities.
+
+\begin{exercisebox}{Exercises: Financial mathematics}
+\begin{enumerate}
+  \item Find the amount of a $15\%$ discount on \$240.
+  \item A value rises from \$500 to \$560. Find the percent increase.
+  \item Compute the simple interest on \$900 at $4\%$ for $3$ years.
+  \item State two reasonable budget adjustments if monthly income drops by $8\%$.
+\end{enumerate}
+\end{exercisebox}
+
+\begin{summarybox}
+The strongest financial solutions explain both the calculation and the decision. A correct number with no interpretation is incomplete communication.
+\end{summarybox}
+
+\chapter{Quadratic Relations}
+\topicline{Parabolas, transformations, factoring, completing the square, graph features, and solution methods}
+
+\section{Recognizing a Quadratic Relation}
+Quadratic relations often appear in standard form,
+\[
+y=ax^2+bx+c,
+\]
+and their tables show constant second differences. Their graphs are parabolas.
+
+\begin{definition}{Vertex form}{vertexform}
+A quadratic relation in \emph{vertex form} is written as
+\[
+y=a(x-h)^2+k,
+\]
+where $(h,k)$ is the vertex and the sign of $a$ determines whether the parabola opens upward or downward.
+\end{definition}
+
+\section{Factoring and Zeros}
+Factoring reveals intercepts and supports efficient solving.
+
+\begin{example}{Factoring and solving}{factorquad}
+Solve $x^2-7x+12=0$.
+\tcblower
+Factor the trinomial:
+\[
+x^2-7x+12=(x-3)(x-4).
+\]
+Set each factor equal to zero:
+\[
+x-3=0 \quad \text{or} \quad x-4=0.
+\]
+So the solutions are $x=3$ and $x=4$.
+\answerline $x=3$ or $x=4$
+\end{example}
+
+\section{Completing the Square}
+Completing the square rewrites a quadratic in a form that reveals its vertex.
+
+\begin{example}{From standard form to vertex form}{cts}
+Write $y=x^2+6x+4$ in vertex form.
+\tcblower
+Group the first two terms and complete the square:
+\[
+y=(x^2+6x+9)-9+4=(x+3)^2-5.
+\]
+So the vertex form is
+\[
+y=(x+3)^2-5.
+\]
+\answerline $y=(x+3)^2-5$
+\end{example}
+
+\section{Graph Features}
+From a graph or equation, identify:
+\begin{itemize}
+  \item the vertex,
+  \item the axis of symmetry,
+  \item the zeros or $x$-intercepts,
+  \item the $y$-intercept, and
+  \item the maximum or minimum value.
+\end{itemize}
+
+\begin{exercisebox}{Exercises: Quadratic relations}
+\begin{enumerate}
+  \item Expand $(x-5)^2$.
+  \item Factor $x^2-9$.
+  \item Solve $x^2-9=0$.
+  \item State the axis of symmetry of $y=2x^2-8x+1$.
+  \item State the vertex of $y=(x-3)^2-5$.
+  \item Does $y=-2(x+1)^2+7$ open upward or downward?
+\end{enumerate}
+\end{exercisebox}
+
+\begin{summarybox}
+Quadratics are the major conceptual jump in the repository study package. Success depends on choosing the right representation: table, graph, factored form, standard form, or vertex form.
+\end{summarybox}
+
+\chapter{Analytic Geometry and Systems}
+\topicline{Solving systems, comparing lines, coordinate arguments, and circle ideas}
+
+\section{Systems of Linear Equations}
+A system is solved by finding the ordered pair that satisfies both equations. Graphically, this is the point of intersection.
+
+\begin{example}{Solving a system by elimination}{systemex}
+Solve
+\[
+\begin{aligned}
+x+y&=10,\\
+x-y&=4.
+\end{aligned}
+\]
+\tcblower
+Add the equations:
+\[
+2x=14,
+\]
+so $x=7$. Substitute into $x+y=10$:
+\[
+7+y=10 \Rightarrow y=3.
+\]
+\answerline $(7,3)$
+\end{example}
+
+\section{Distance, Midpoint, and Circles}
+The distance formula comes from the Pythagorean theorem. A circle centred at the origin with radius $r$ has equation
+\[
+x^2+y^2=r^2.
+\]
+
+\section{Coordinate Proof Ideas}
+You can show two segments are parallel by equal slopes, perpendicular by negative reciprocal slopes, or congruent by equal distances.
+
+\begin{exercisebox}{Exercises: Analytic geometry}
+\begin{enumerate}
+  \item Solve by substitution: $y=2x+1$ and $x+y=10$.
+  \item Find the distance between $(2,1)$ and $(8,10)$.
+  \item Write the equation of the circle centred at the origin with radius $5$.
+  \item Name one coordinate condition that proves two lines are parallel.
+\end{enumerate}
+\end{exercisebox}
+
+\begin{summarybox}
+Analytic geometry rewards organization. Label points clearly, write formulas before substituting, and connect every calculation to a geometric claim.
+\end{summarybox}
+
+\chapter{Trigonometry and Similar Triangles}
+\topicline{Similarity, right-triangle trigonometry, sine law, cosine law, and contextual problem solving}
+
+\section{Similarity}
+Similar triangles have equal corresponding angles and proportional corresponding sides. Similarity explains why trigonometric ratios stay constant for a fixed acute angle.
+
+\begin{definition}{Primary trigonometric ratios}{trigratios}
+In a right triangle with acute angle $\theta$,
+\[
+\sin\theta=\frac{\text{opposite}}{\text{hypotenuse}}, \qquad
+\cos\theta=\frac{\text{adjacent}}{\text{hypotenuse}}, \qquad
+\tan\theta=\frac{\text{opposite}}{\text{adjacent}}.
+\]
+\end{definition}
+
+\begin{example}{Using tangent}{tanexample}
+In a right triangle, the side opposite $\theta$ is $7$ and the adjacent side is $24$. Find $\theta$.
+\tcblower
+\[
+\tan\theta=\frac{7}{24}.
+\]
+So
+\[
+\theta=\tan^{-1}\!\left(\frac{7}{24}\right)\approx 16.3^\circ.
+\]
+\answerline $\theta\approx 16.3^\circ$
+\end{example}
+
+\section{Sine Law and Cosine Law}
+For an acute triangle with sides $a,b,c$ opposite angles $A,B,C$:
+\[
+\frac{a}{\sin A}=\frac{b}{\sin B}=\frac{c}{\sin C}
+\]
+and
+\[
+c^2=a^2+b^2-2ab\cos C.
+\]
+Use the sine law when you know an angle-side opposite pair. Use the cosine law when the included angle and two sides are known, or when all three sides are known.
+
+\begin{exercisebox}{Exercises: Trigonometry}
+\begin{enumerate}
+  \item Explain the difference between similar and congruent triangles.
+  \item In a right triangle, find the missing leg if the hypotenuse is $13$ and one leg is $5$.
+  \item Use a trigonometric ratio to find an angle when the opposite side is $7$ and the adjacent side is $24$.
+  \item State whether the sine law or cosine law is more natural for: sides $8$ and $10$ with included angle $60^\circ$.
+  \item In the sine law setup $a=9$, $A=30^\circ$, $B=45^\circ$, write the equation used to find $b$.
+\end{enumerate}
+\end{exercisebox}
+
+\begin{summarybox}
+Trigonometry in the ABQ context is not only about calculator skill. It is about diagram choice, side-angle relationships, and selecting an efficient method.
+\end{summarybox}
+
+\chapter{Integrated Practice and Readiness}
+\section{Mixed Review Set}
+The original repository emphasizes mixed practice because real assessments rarely announce the topic before the question begins. Try the following without labels.
+
+\begin{exercisebox}{Cumulative mixed practice}
+\begin{enumerate}
+  \item Simplify $-3(2x-5)+4x$.
+  \item Convert $0.0375$ to a percent.
+  \item Find the midpoint of $(-4,6)$ and $(8,-2)$.
+  \item Solve $x^2-7x+12=0$.
+  \item A die is rolled once. What is the probability of an odd number?
+  \item A laptop worth \$1200 depreciates by $12\%$. Find the value after one year.
+  \item For $y=(x-3)^2-5$, state the vertex.
+  \item Solve the system $x+y=10$ and $x-y=4$.
+  \item Find $\tan\theta$ if the opposite side is $7$ and the adjacent side is $24$.
+  \item State one reason a scatter plot may show association without proving causation.
+\end{enumerate}
+\end{exercisebox}
+
+\section{Final Readiness Checklist}
+\begin{itemize}
+  \item I can work fluently with signed numbers, fractions, rates, and percent.
+  \item I can simplify expressions and solve linear equations accurately.
+  \item I can identify slope, intercepts, midpoint, and distance.
+  \item I can interpret one-variable and two-variable data.
+  \item I can solve measurement and right-triangle problems with units.
+  \item I can compare financial options using justified calculations.
+  \item I can factor, solve, and interpret quadratic relations.
+  \item I can solve systems and verify geometric properties in the coordinate plane.
+  \item I can use trigonometric ratios, the sine law, and the cosine law appropriately.
+\end{itemize}
+
+\backmatter
+
+\chapter{Answer Key}
+\section*{Chapter 2: Number Sense and Exponents}
+\begin{enumerate}
+  \item $-3$ is an integer, $\frac{7}{8}$ is rational, $\sqrt{2}$ is irrational.
+  \item $3^2=9$
+  \item $x^3$
+  \item $5.4\times 10^4$
+  \item $15\%$
+  \item Unit rate \$2.25 per pen; cost for eight pens is \$18.00.
+\end{enumerate}
+
+\section*{Chapter 3: Algebra and Relations}
+\begin{enumerate}
+  \item $-x+8$
+  \item $x=6$
+  \item $x=21$
+  \item $2$
+  \item $y=-2x+1$
+  \item The slope between consecutive points is constant: $\frac{6-2}{3-1}=2$ and $\frac{10-6}{5-3}=2$.
+\end{enumerate}
+
+\section*{Chapter 4: Data and Probability}
+\begin{enumerate}
+  \item Sample answer: only people with internet access and motivation to respond may be represented.
+  \item Mean $=7$, median $=6$.
+  \item $\frac{3}{6}=\frac{1}{2}$
+  \item $\frac{9}{20}$
+  \item Sample answer: the model may ignore important context, bias, or unreasonable extrapolation.
+\end{enumerate}
+
+\section*{Chapter 5: Geometry and Coordinate Geometry}
+\begin{enumerate}
+  \item $240$ cm
+  \item $35\text{ cm}^2$
+  \item $2\pi r^2+2\pi rh$
+  \item $(5,5.5)$
+  \item Yes. They are negative reciprocals.
+  \item Sample answer: adjacent sides are perpendicular and opposite sides are parallel.
+\end{enumerate}
+
+\section*{Chapter 6: Financial Mathematics}
+\begin{enumerate}
+  \item \$36
+  \item $12\%$
+  \item \$108
+  \item Sample answers vary; examples include reducing discretionary spending and renegotiating recurring expenses.
+\end{enumerate}
+
+\section*{Chapter 7: Quadratic Relations}
+\begin{enumerate}
+  \item $x^2-10x+25$
+  \item $(x-3)(x+3)$
+  \item $x=\pm 3$
+  \item $x=2$
+  \item $(3,-5)$
+  \item Downward
+\end{enumerate}
+
+\section*{Chapter 8: Analytic Geometry}
+\begin{enumerate}
+  \item $(3,7)$
+  \item $\sqrt{117}=3\sqrt{13}$
+  \item $x^2+y^2=25$
+  \item Equal slopes
+\end{enumerate}
+
+\section*{Chapter 9: Trigonometry}
+\begin{enumerate}
+  \item Similar triangles have equal corresponding angles and proportional sides; congruent triangles are the same size and shape.
+  \item $12$
+  \item $\theta=\tan^{-1}(7/24)\approx 16.3^\circ$
+  \item Cosine law
+  \item $\dfrac{9}{\sin 30^\circ}=\dfrac{b}{\sin 45^\circ}$
+\end{enumerate}
+
+\section*{Chapter 10: Mixed Practice}
+\begin{enumerate}
+  \item $-2x+15$
+  \item $3.75\%$
+  \item $(2,2)$
+  \item $x=3$ or $x=4$
+  \item $\frac{1}{2}$
+  \item \$1056
+  \item $(3,-5)$
+  \item $(7,3)$
+  \item $\tan\theta=\frac{7}{24}$
+  \item Sample answer: association alone does not establish a cause-and-effect relationship.
+\end{enumerate}
+
+\chapter{Appendix: Ontario Curriculum and Study Notes}
+\section*{Curriculum reminder}
+This textbook follows the same Ontario-aligned scope already documented in the repository study package:
+\begin{itemize}
+  \item Grade 9 Mathematics \coursecode{MTH1W}, strands B--F.
+  \item Grade 10 Academic Mathematics \coursecode{MPM2D} (2005), strands A--C.
+\end{itemize}
+
+\section*{Why this remains a study package}
+The repository content explicitly states that it is a study support resource rather than an official Trent University assessment. That distinction matters pedagogically and ethically: the goal is readiness through curriculum mastery, not prediction of test form.
+
+\section*{Suggested compilation}
+Compile with a standard PDF LaTeX workflow such as:
+\begin{verbatim}
+pdflatex Ontario-Intermediate-Math-ABQ-Textbook.tex
+pdflatex Ontario-Intermediate-Math-ABQ-Textbook.tex
+\end{verbatim}
+A LaTeX build engine such as \texttt{latexmk -pdf} may also be used.
+
+\end{document}
