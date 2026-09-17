@@ -4,7 +4,7 @@
   "description": "> **Audience:** Ontario Certified Teacher preparing for Trent University Intermediate Mathematics ABQ entry test in a 2–3 day intensive window (15–20 hours). > > **Important label:** This is a **curriculum-aligned preparation package** and **not an official Trent University practice test**.",
   "private": true,
   "engines": {
-    "node": ">=20.19.0 <22 || >=22.12.0"
+    "node": ">=22.12.0"
   },
   "scripts": {
     "build:study-package-pdf": "md-to-pdf Ontario-Intermediate-Math-ABQ-Study-Package.md --config-file md-to-pdf.config.js",
