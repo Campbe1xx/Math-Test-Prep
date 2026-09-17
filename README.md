@@ -7,7 +7,7 @@
 
 > **Standalone file version:** [Ontario Intermediate Mathematics ABQ Study Package](./Ontario-Intermediate-Math-ABQ-Study-Package.md)
 >
-> **Markdown-to-PDF build:** use Node `22.12+`, run `npm install`, then `npm run build:study-package-pdf` to create `Ontario-Intermediate-Math-ABQ-Study-Package.pdf` beside the Markdown source. In restricted sandbox/CI environments that require Chromium's sandbox to be disabled, use `npm run build:study-package-pdf:ci`.
+> **Markdown-to-PDF build:** use Node `20.19+` (or Node `22.12+` on the 22.x line), run `npm install`, then `npm run build:study-package-pdf` to create `Ontario-Intermediate-Math-ABQ-Study-Package.pdf` beside the Markdown source. In restricted sandbox/CI environments that require Chromium's sandbox to be disabled, use `npm run build:study-package-pdf:ci`.
 >
 > **LaTeX textbook source:** `Ontario-Intermediate-Math-ABQ-Textbook.tex`  
 > Compile with `pdflatex Ontario-Intermediate-Math-ABQ-Textbook.tex` (run twice) or `latexmk -pdf Ontario-Intermediate-Math-ABQ-Textbook.tex`.
