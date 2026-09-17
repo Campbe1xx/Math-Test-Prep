@@ -7,6 +7,8 @@
 
 > **Standalone file version:** [Ontario Intermediate Mathematics ABQ Study Package](./Ontario-Intermediate-Math-ABQ-Study-Package.md)
 >
+> **Markdown-to-PDF build:** run `npm install`, then `npm run build:study-package-pdf` to create `Ontario-Intermediate-Math-ABQ-Study-Package.pdf` beside the Markdown source.
+>
 > **LaTeX textbook source:** `Ontario-Intermediate-Math-ABQ-Textbook.tex`  
 > Compile with `pdflatex Ontario-Intermediate-Math-ABQ-Textbook.tex` (run twice) or `latexmk -pdf Ontario-Intermediate-Math-ABQ-Textbook.tex`.
 >
